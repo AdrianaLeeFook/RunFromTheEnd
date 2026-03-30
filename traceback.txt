@@ -1,0 +1,37 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/scene4.rpy", line 373, in script
+    Hayden and Bella "Hey! We aren’t that useless!"
+Exception: Say has image attributes ('and', 'Bella'), but there's no image tag associated with the speaking character.
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "game/scene4.rpy", line 373, in script
+    Hayden and Bella "Hey! We aren’t that useless!"
+  File "renpy/ast.py", line 2925, in execute
+    Say.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "renpy/ast.py", line 991, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/exports/sayexports.py", line 129, in say
+    who(what, *args, **kwargs)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "renpy/character.py", line 1503, in __call__
+    old_attr_state = self.handle_say_attributes(False, interact)
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "renpy/character.py", line 1321, in handle_say_attributes
+    if self.resolve_say_attributes(predicting, attrs):
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^ 
+  File "renpy/character.py", line 1249, in resolve_say_attributes
+    raise Exception(
+    ...<2 lines>...
+    )
+Exception: Say has image attributes ('and', 'Bella'), but there's no image tag associated with the speaking character.
+
+Windows-11-10.0.22631-SP0 AMD64
+Ren'Py 8.5.2.26010301
+Run from the End 1.0
+Sun Mar 29 19:26:21 2026
