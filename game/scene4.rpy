@@ -4,6 +4,7 @@ define Cara = Character("Miss Cara")
 define Logan = Character("Logan")
 define Bella = Character("Bella")
 define Alex = Character("Alex")
+define hb = Character("Hayden and Bella")
 
 # The game starts here.
 
@@ -22,15 +23,18 @@ label scene4:
     image Logan = "Fuyuhiko_Kuzuryuu_Halfbody_Sprite_29.png"
     image Alex = "Quiz_detail_image_38.png"
 
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
     Taylor "We kept walking through the town, hiding at certain points in guard-heavy areas."
 
     Taylor "We tried our best to not get caught. Somehow, we didn’t."
 
     Taylor "The safehouse was bigger than we thought."
 
-    show Hayden at right
-    show Taylor at left
+    show Hayden at right:
+        zoom 0.75
+    show Taylor at left:
+        zoom 0.65
 
     Hayden "Woah. This is…big."
 
@@ -50,7 +54,8 @@ label scene4:
 
     Cara "Taylor and Hayden, children of the Jenkins! We know you two very well. Come in come in!"
 
-    show Taylor at left
+    show Taylor at left:
+        zoom 0.65
     show Cara at right
 
     Taylor "Um. Who are you?"
@@ -59,13 +64,15 @@ label scene4:
 
     Cara "I run this safehouse and protect the children of those whose parents or other family members are on the run from the government. Or have…suffered the pain of a loss."
 
-    show Hayden at left
+    show Hayden at left:
+        zoom 0.75
     hide Taylor
 
     Hayden "We lost our parents a few weeks back…but now…"
 
     hide Cara
-    show Taylor at right
+    show Taylor at right:
+        zoom 0.65
 
     Taylor "They’re after me due to my stance in constant protests."
 
@@ -92,14 +99,16 @@ label scene4:
     Bella "Of course, Miss Cara! Follow me! I’ll introduce you to…the others. It's just the three of us!"
 
     hide Cara
-    show Hayden at left
+    show Hayden at left:
+        zoom 0.75
 
     Hayden "A shelter this big and there’s only three others here?"
 
     Bella "Well, the others were able to leave after a while, but some of us are stuck here! Like me! If I get caught, I’ll be joining my momma in a cell!"
 
     hide Hayden
-    show Taylor at left
+    show Taylor at left:
+        zoom 0.65
 
     Taylor "So basically, we can’t leave."
 
@@ -110,7 +119,8 @@ label scene4:
     Bella "Yeah, she’s not big on people leaving."
 
     hide Taylor
-    show Hayden at left
+    show Hayden at left:
+        zoom 0.75
 
     Hayden "Ok, so, who else is here?"
 
@@ -136,17 +146,20 @@ label scene4:
 
     hide Bella
     hide Alex
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
     
     Taylor "I’m Taylor Jenkins, and this is my brother Hayden."
 
-    show Taylor at left
+    show Taylor at left:
+        zoom 0.65
     show Logan at right
 
     Logan "Oh shit, the rumors about the Jenkins siblings are true. You two aren’t dead. Ain’t this a shock."
 
     hide Taylor
-    show Hayden at left
+    show Hayden at left:
+        zoom 0.75
 
     Hayden "What do you mean?"
 
@@ -161,14 +174,17 @@ label scene4:
     Alex "Wow. What an honor to be in front of such legends."
 
     hide Bella
-    show Hayden at right
+    show Hayden at right:
+        zoom 0.75
 
     Hayden "I wouldn’t say we’re LEGENDS. I’d say my sister needs to take a break, though."
 
     hide Alex
-    show Taylor at left
+    show Taylor at left:
+        zoom 0.65
 
     Taylor "Breaks don’t exist for those fighting against corruption, I keep telling you this."
+
     Hayden "And I keep-"
 
     show Bella at center
@@ -187,7 +203,8 @@ label scene4:
     Alex "It wouldn’t hurt. Escaping is already going to be hard enough. Backup would be good."
 
     hide Logan
-    show Taylor at left
+    show Taylor at left:
+        zoom 0.65
 
     Taylor "A plan for what?"
 
@@ -197,7 +214,8 @@ label scene4:
     Bella "Escape!"
 
     hide Taylor
-    show Hayden at left
+    show Hayden at left:
+        zoom 0.75
 
     Hayden "WHAT?!"
 
@@ -207,7 +225,8 @@ label scene4:
     Logan "Keep your voice down, squirt. Ugh."
 
     hide Hayden
-    show Taylor at left
+    show Taylor at left:
+        zoom 0.65
 
     Taylor "An escape plan…you aren’t scared that it could fail?"
 
@@ -222,7 +241,8 @@ label scene4:
     Bella "He owns a gun!"
 
     hide Alex
-    show Hayden at right
+    show Hayden at right:
+        zoom 0.75
 
     Hayden "What?! Really?! Can I see?!"
 
@@ -232,7 +252,8 @@ label scene4:
     Logan "Absolutely not, I don’t show my gun to anyone freely."
 
     hide Hayden
-    show Taylor at right
+    show Taylor at right:
+        zoom 0.65
 
     Taylor "Ok edgelord, whatever you say."
 
@@ -244,7 +265,8 @@ label scene4:
     Taylor "No thank you. We do not need them tracking us."
 
     hide Bella
-    show Hayden at left
+    show Hayden at left:
+        zoom 0.75
 
     Hayden "We left our phones back at home."
 
@@ -259,7 +281,8 @@ label scene4:
     Logan "So the hag brought us an escaped fugitive. Lovely."
 
     hide Alex
-    show Taylor at right
+    show Taylor at right:
+        zoom 0.65
 
     Taylor "I’m not an escaped fugitive. I was protecting my brother. I would’ve stayed but he comes first."
 
@@ -273,7 +296,8 @@ label scene4:
     Taylor "Right…. Regardless, if you think you can escape or try and take them down, think again? Psh. It can’t happen."
 
     hide Bella
-    show Hayden at left
+    show Hayden at left:
+        zoom 0.75
 
     Hayden "I mean…it could!"
 
@@ -299,12 +323,14 @@ label scene4:
     Logan "We’ve also found one down by Ironhill. Those gates are unguarded at like 2 to 4 in the morning. It’s crazy."
 
     hide Alex
-    show Taylor at left
+    show Taylor at left:
+        zoom 0.65
 
     Taylor "So some gates go unguarded…"
 
     hide Logan
-    show Hayden at right
+    show Hayden at right:
+        zoom 0.75
 
     Hayden "But what about the cameras?"
 
@@ -314,7 +340,8 @@ label scene4:
     Alex "The gates don’t have cameras!"
 
     hide Hayden
-    show Taylor at right
+    show Taylor at right:
+        zoom 0.65
 
     Taylor "Uh. Yes. Yes they do. If those cameras are active, your plan immediately goes down the drain."
 
@@ -334,7 +361,8 @@ label scene4:
     Logan "There’s cameras everywhere now…ugh…"
 
     hide Alex
-    show Taylor at right
+    show Taylor at right:
+        zoom 0.65
 
     Taylor "Unless you plan to disable the cameras, which you can’t do without getting into their server room, you aren’t gonna have a chance to use the gates."
 
@@ -357,7 +385,8 @@ label scene4:
     hide Alex
     hide Bella
     hide Logan
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
 
     Taylor "If you really wanna try anything, you should watch what people do when they try to escape the gates AT the unguarded times. Send someone who doesn’t know any better."
 
@@ -367,13 +396,15 @@ label scene4:
 
     hide Logan
     hide Taylor
-    show Hayden at left
+    show Hayden at left:
+        zoom 0.75
     show Bella at right
 
     hb "Hey! We aren’t that useless!"
 
     hide Bella
-    show Taylor at right
+    show Taylor at right:
+        zoom 0.65
 
     Taylor "And you are NOT sending my brother into the arms of those…THOSE…THOSE PIECES OF SHIT!"
 
@@ -395,7 +426,8 @@ label scene4:
     Alex "I mean hey, if you guys don’t wanna do the dirty work, I will."
 
     hide Alex
-    show Taylor at right
+    show Taylor at right:
+        zoom 0.65
 
     Taylor "There’s no way I’m sending someone to their death."
 

@@ -3,21 +3,20 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
-<<<<<<< HEAD
-=======
+
+
 define Taylor = Character("Taylor")
 define Hayden = Character("Hayden")
 define Cara = Character("Miss Cara")
 define Logan = Character("Logan")
 define Bella = Character("Bella")
 define Alex = Character("Alex")
->>>>>>> fac94c366464cc1d64770908c20e49c88069a267
+
 
 # The game starts here.
 
 label start:
 
-=======
    call scene1
    #call scene2
    #call scene3
@@ -36,4 +35,3 @@ label start:
    #call scene16
 
 return
->>>>>>> fac94c366464cc1d64770908c20e49c88069a267
