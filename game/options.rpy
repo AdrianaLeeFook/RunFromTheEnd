@@ -12,7 +12,11 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
+<<<<<<< HEAD
 define config.name = _("Run from the End scene 8")
+=======
+define config.name = _("Run from the End")
+>>>>>>> fac94c366464cc1d64770908c20e49c88069a267
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -37,7 +41,11 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
+<<<<<<< HEAD
 define build.name = "RunfromtheEndscene8"
+=======
+define build.name = "RunfromtheEnd"
+>>>>>>> fac94c366464cc1d64770908c20e49c88069a267
 
 
 ## Sounds and music ############################################################
@@ -143,7 +151,11 @@ default preferences.afm_time = 15
 ## This generally should not be changed, and if it is, should always be a
 ## literal string, not an expression.
 
+<<<<<<< HEAD
 define config.save_directory = "RunfromtheEndscene8-1774839970"
+=======
+define config.save_directory = "RunfromtheEnd-1771990955"
+>>>>>>> fac94c366464cc1d64770908c20e49c88069a267
 
 
 ## Icon ########################################################################
