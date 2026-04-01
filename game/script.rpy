@@ -16,11 +16,7 @@ define Alex = Character("Alex")
 # The game starts here.
 
 label start:
-<<<<<<< HEAD
 
-    call scene8
-
-    return
 =======
    call scene1
    #call scene2
