@@ -25,7 +25,7 @@ label start:
    #call scene5
    #call scene6
    #call scene7
-   #call scene8
+   call scene8
    #call scene9
    #call scene10
    #call scene11
