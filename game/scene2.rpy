@@ -37,7 +37,8 @@ label scene2:
     #Julie in the middle of protesting and then sees Taylor and gets excited
     #show both characters
 
-    show taylor at right
+    show taylor at right:
+        zoom 0.65
     show julie at left
 
     julie "NO MORE DICTATORS! GIVE US OUR FREEDOM!"
@@ -69,7 +70,8 @@ label scene2:
 #scene of outside protest added her
 
     # Initial characters
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
     show julie at right
 
     
@@ -77,13 +79,15 @@ label scene2:
 
     # Kyle speaking  focus him
     show kyle at center
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
     show julie at right
 
     kyle "Woahhh, Tay-Tay, you gotta slow your roll. Protests are peaceful obligations, bro."
 
     # Taylor responds → focus Taylor
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
     show kyle at center
     show julie at right
 
@@ -91,13 +95,15 @@ label scene2:
 
     # Kyle again → focus Kyle
     show kyle at center
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
     show julie at right
 
     kyle "And to support a valiant cause. Our freedom. And the donuts, man. The donuts."
 
     # Taylor → focus Taylor
-    show taylor at center
+    show taylor at center:
+        zoom 0.65
     show kyle at left
     show julie at right
 
@@ -106,14 +112,16 @@ label scene2:
     # JULIE joins back in
    
     show julie at center
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
     show kyle at right
 
     julie "Hey, the donut vendors at these things are AWESOME! I don't blame Kyle at all."
 
     # TAYLOR 
 
-    show taylor at center
+    show taylor at center:
+        zoom 0.65
     show julie at right
     show kyle at left
 
@@ -121,8 +129,9 @@ label scene2:
 
     # KYLE EXITS
 
-    show kyle at center, 
-    show taylor at left
+    show kyle at center
+    show taylor at left:
+        zoom 0.65
     show julie at right
 
     kyle "I'm gonna get more donuts, dudes. LATERS!"
@@ -139,35 +148,41 @@ label scene2:
     # TONE SHIFT (SERIOUS)
 
     show julie at right
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
 
     julie "So...how are ya holding up, Tay?"
 
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
     show julie at right
 
     taylor "Oh, you mean after I lost my parents a few weeks ago? Still awful. Hayden and I have had to hide more just because of it."
 
     show julie at right
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
 
     julie "That's awful..."
 
     # TAYLOR OPENS UP
 
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
     show julie at right
 
     taylor "I miss them like hell, but...it's made me stronger. I want to make a change even more than before."
 
     # Julie responds
     show julie at right
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
 
     julie "That's the spirit! But seriously, please take a break. You're an easy target. Even with your mask"
 
     # Taylor pushes back
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
     show julie at right
 
     taylor "I switch it up a lot, I'm not scared."
@@ -184,13 +199,15 @@ label scene2:
     # Julie reacts (lighter tone but nervous)
 
     show julie at right
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
 
     julie "Aw man, what the heck!"
 
     # Taylor reaction (calm/dismissive)
 
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
     show julie at right
 
     taylor "Psh."
@@ -198,7 +215,8 @@ label scene2:
     # JULIE EXITS
 
     show julie at right
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
 
     julie "Well, I'll see ya around, Tay. don't get yourself killed out there."
 
@@ -208,11 +226,13 @@ label scene2:
 
     # Taylor left alone (optional final beat)
 
-    show taylor at center
+    show taylor at center:
+        zoom 0.65
 
     #taylor making her way out
     
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
 
     taylor "Yeah, I know."
 
@@ -220,7 +240,8 @@ label scene2:
     show kyle at right with moveinright
 
     show kyle at right
-    show taylor at left
+    show taylor at left:
+        zoom 0.65
 
     kyle "BYE TAY-TAY! Here, take some donuts for the little man."
 
@@ -228,7 +249,8 @@ label scene2:
     hide kyle with moveoutright
 
     # Taylor responds
-    show taylor at center
+    show taylor at center:
+        zoom 0.65
 
     taylor "Thanks."
     pause 0.5
@@ -238,7 +260,8 @@ label scene2:
     # stop sound fadeout 1.0
     # stop music fadeout 2.0
 
-    show taylor at center
+    show taylor at center:
+        zoom 0.65
 
     taylor_thought "Some folks decided to stay, but when your parents were the ones leading the protests at their peak you have to hide. That's my life."
 

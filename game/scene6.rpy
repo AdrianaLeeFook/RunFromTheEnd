@@ -1,4 +1,10 @@
 define taylor_thought = Character("Taylor" , what_italic = True)
+define taylor = Character("Taylor")
+define hayden = Character("Hayden")
+define cara = Character("Miss Cara")
+define logan = Character("Logan")
+define bella = Character("Bella")
+define alex = Character("Alex")
 
 label scene6:
 
@@ -7,13 +13,15 @@ label scene6:
     image logan = "LoganPlaceholder.png"
     image bella = "BellaPlaceholder.png"
     image alex = "AlexPlaceholder.png"
+    image cara = "CaraPlaceholder.png"
 
     scene dining_room with fade
 
 #there isn't any audio that I have but I think it will sound good with some here 
     #play music audio fadein 2.0
 
-    show taylor at center
+    show taylor at center:
+        zoom 0.65
 
     # taylors arrival 
 
@@ -21,62 +29,87 @@ label scene6:
 
     taylor_thought "Not surprising… this is home to them."
 
-    show bella happy at right
-    show logan neutral at left
+    hide taylor
+    show bella at right
+    show logan at left
 
     bella "Hey guys! Oh my gosh, I can’t WAIT to see your rooms later!"
 
     logan "If it’s anything like her usual setups, I won’t be shocked."
 
-    show taylor confused
+    hide logan
+    show taylor at left:
+        zoom 0.65 
     taylor "What do you mean by that?"
 
-    show alex calm at right
+    hide bella
+    show alex at right
     alex "Miss Cara has this… sixth sense when it comes to the people who stay here."
 
     alex "It’s kinda creepy, but you get used to it."
 
-    show hayden confused
+    hide taylor
+    show hayden at left:
+        zoom 0.75
     hayden "Creepy?"
 
+    hide alex
+    show logan at right
     logan "Yeah. The hag can be extremely creepy."
 
     logan "I’ve seen worse though."
 
-    show taylor neutral
+    hide hayden
+    show taylor at left:
+        zoom 0.65
     taylor "Must relate to where you’re from."
 
     logan "Ironhill District."
 
     logan "They enjoy severe violence over there. Gunfights at least once a week."
 
-    show hayden neutral
+    hide logan 
+    show hayden at right:
+        zoom 0.75
     hayden "What about you, Alex?"
 
+    hide taylor
+    show alex at left
     alex "I don’t really remember."
 
     alex "My parents dropped me off here when I was a baby."
 
     # Miss Cara Enters
 
-    show cara smile at center with moveinright
+    show cara at center with moveinright
 
     cara "It’s true. Alex is like the child I never knew I needed."
 
     alex "Thank you, Miss Cara. And thank you for the food!"
 
-    show hayden happy
     hayden "Woah! This looks amazing!"
 
+    hide cara
+    hide hayden
+    show bella at right
     bella "I LOVE spaghetti days! Thank you, Miss Cara!"
 
+    hide alex
+    show logan at left
     logan "Thanks."
 
+    hide bella
+    show hayden at right:
+        zoom 0.75
     hayden "Thank you!"
 
-    show taylor neutral
+    hide logan
+    show taylor at left:
+        zoom 0.65
     taylor "…Thanks."
 
+    hide hayden
+    show cara at right
     cara "You kids enjoy now, okay?"
 
     hide cara with moveoutright
@@ -95,38 +128,54 @@ label scene6:
 
     taylor "Guys… does anything feel… weird about this—"
 
-    show bella serious
-    bella "{size=-5}(quiet) SHUT UP! She hears everything but our whispers.{/size}"
+    show bella at right
+    bella "{size=-5} SHUT UP! She hears everything but our whispers.{/size}"
 
-    show logan serious
-    logan "{size=-5}(whispering) She’s creepy for real. We eat the food. Call it a day.{/size}"
+    hide taylor
+    show logan at left
+    logan "{size=-5} She’s creepy for real. We eat the food. Call it a day.{/size}"
 
-    logan "{size=-5}(whispering) That’s why we’ve been trying to escape.{/size}"
+    logan "{size=-5} That’s why we’ve been trying to escape.{/size}"
 
-    show hayden shocked
-    hayden "{size=-5}(whispering) Escape? What’s so bad about being here?{/size}"
+    hide bella
+    show hayden at right:
+        zoom 0.75
+    hayden "{size=-5} Escape? What’s so bad about being here?{/size}"
 
-    logan "{size=-5}(whispering) Just trust us.{/size}"
+    logan "{size=-5} Just trust us.{/size}"
 
-    bella "{size=-5}(whispering) We want to escape tonight. Well… try again.{/size}"
+    hide hayden
+    show bella at right
+    bella "{size=-5} We want to escape tonight. Well… try again.{/size}"
 
-    alex "{size=-5}(whispering) Now that you’re here… you can help us get to the castle.{/size}"
+    hide logan
+    show alex at left
+    alex "{size=-5} Now that you’re here… you can help us get to the castle.{/size}"
 
-    show taylor serious
-    taylor "{size=-5}(whispering) To get into the castle… you’d need to know the way in.{/size}"
+    hide bella
+    show taylor at right:
+        zoom 0.65
+    taylor "{size=-5} To get into the castle… you’d need to know the way in.{/size}"
 
-    alex "{size=-5}(whispering) It’s not that hard.{/size}"
+    alex "{size=-5} It’s not that hard.{/size}"
 
-    bella "{size=-5}(whispering) Yeah! Alex has snuck in before!{/size}"
+    hide alex
+    show bella at left
+    bella "{size=-5} Yeah! Alex has snuck in before!{/size}"
 
-    bella "{size=-5}(whispering) They’re super cool!{/size}"
+    bella "{size=-5} They’re super cool!{/size}"
 
-    show hayden uneasy
-    hayden "{size=-5}(whispering) But… what’s in this food then…?{/size}"
+    hide taylor
+    show hayden at right:
+        zoom 0.75
+    hayden "{size=-5} But… what’s in this food then…?{/size}"
 
-    bella "{size=-5}(whispering) It’s just spaghetti. It’s fine.{/size}"
+    bella "{size=-5} It’s just spaghetti. It’s fine.{/size}"
 
     # tension starts to creep up 
+
+    show taylor at center:
+        zoom 0.65
 
     taylor_thought "We kept eating…"
 
@@ -138,15 +187,14 @@ label scene6:
 
     #suspense in the final lines
 
-
-    show taylor serious
-
-    taylor "{size=-5}(whispering) What about the locked rooms?{/size}"
+    hide bella
+    show taylor at left:
+        zoom 0.65
+    taylor "{size=-5} What about the locked rooms?{/size}"
 
     pause 1.0
 
-    show hayden uneasy
-    hayden "{size=-5}(whispering) Why did you all get quiet…?{/size}"
+    hayden "{size=-5} Why did you all get quiet…?{/size}"
 
     #end of scene 6 
 
