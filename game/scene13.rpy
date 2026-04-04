@@ -13,7 +13,7 @@ label scene13:
 
     # Declare the character sprites to images.
     image Bella = "BellaPlaceholder.png"
-    image The Ruler = "RulerPlaceholderr.png"
+    image TheRuler = "RulerPlaceholderr.png"
     image Taylor = "TaylorPlaceholder.png"
     image Alex = "AlexPlaceholder.png"
     image Logan = "LoganPlaceholder.png"
