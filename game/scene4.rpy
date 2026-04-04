@@ -18,7 +18,7 @@ label scene4:
 
     image Taylor = "Cara0-2.png"
     image Hayden = "Cara9-1.png"
-    image Cara = "CaraPlaceholder"
+    image Cara = "CaraPlaceholder.png"
     image Bella = "Cara96-6.png"
     image Logan = "Fuyuhiko_Kuzuryuu_Halfbody_Sprite_29.png"
     image Alex = "Quiz_detail_image_38.png"

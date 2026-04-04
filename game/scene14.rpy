@@ -110,7 +110,7 @@ label ruler_win:
 
     "GAME END"
 
-    return
+    jump scene14
 
 # GOOD END (YOU WIN)
 

@@ -21,8 +21,10 @@ label scene9:
     image Hayden = "HaydenPlaceholder.png"
 
     # The dialogue for this scene. And to show the character sprites.
-    show Pierce at right 
-    show Taylor at left
+    show Pierce at right:
+        zoom 0.75
+    show Taylor at left:
+        zoom 0.65
 
     Pierce "Alrighty, so that's two daggers for the kid."
 
@@ -46,7 +48,8 @@ label scene9:
     hide Logan
     hide Bella
     show Alex at left
-    show Taylor at center 
+    show Taylor at center:
+        zoom 0.65
 
     Alex "I think this katana will serve me well."
 
@@ -60,7 +63,8 @@ label scene9:
     Bella "BOMBS?!"
 
     hide Bella 
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
 
     Pierce "I got a few grenades. No landmines or anything. Everything would just explode in an instant. Grenades though…those are way easier to deal with."
     
@@ -74,7 +78,8 @@ label scene9:
     
     hide Pierce 
     hide Taylor 
-    show Hayden at right
+    show Hayden at right:
+        zoom 0.75
     show Bella at center
 
     Hayden "Taylor's good at making sure things don't mess up! You gotta trust her on this one Alex."
@@ -88,9 +93,11 @@ label scene9:
     hide Bella 
     hide Hayden
     hide Alex
-    show Taylor at right
+    show Taylor at right:
+        zoom 0.65
     show Logan at center
-    show Pierce at left
+    show Pierce at left:
+        zoom 0.75
     
     Logan "Look at that. Her brain isn't entirely made of rocks after all."
 
@@ -100,7 +107,8 @@ label scene9:
     
     hide Logan
     hide Pierce
-    show Hayden at left
+    show Hayden at left:
+        zoom 0.75
 
     Hayden "You got it! We're gonna save everyone! R-right?"
 

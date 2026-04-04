@@ -37,10 +37,15 @@ label scene5:
 
     Alex "Oh snap, she makes some good spaghetti!"
 
-    hide Alex
-    show Taylor at left
+    hide Logan
+    show Taylor at right:
+        zoom 0.65
 
     Taylor "I haven't had anyone else's cooking in weeks."
+
+    hide Alex
+    show Hayden at left:
+        zoom 0.75
 
     Hayden "You barely even eat, Tay. You save most of the food for me."
 
@@ -60,7 +65,8 @@ label scene5:
 
     hide MissCara
     hide Hayden 
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
 
     Taylor "Miss Cara showed us to our rooms. Though, there were a lot of bedrooms that were locked. It had me suspecting if she was hiding something or someone in them."
     
@@ -69,7 +75,8 @@ label scene5:
     Taylor "Hayden was astonished by his room, but these rooms felt too good to be true."
 
     show MissCara at right 
-    show Hayden at left
+    show Hayden at left:
+        zoom 0.75
 
     MissCara "Well children, do you like it?"
 
@@ -97,8 +104,10 @@ label scene5:
 
     hide Bella
     hide MissCara
-    show Taylor at right
-    show Hayden at left
+    show Taylor at right:
+        zoom 0.65
+    show Hayden at left:
+        zoom 0.75
 
     Hayden "I wonder what districts the others come from."
 
