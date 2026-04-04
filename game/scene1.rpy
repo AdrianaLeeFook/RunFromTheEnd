@@ -24,7 +24,8 @@ label scene1:
     image hayden = "hayden.jpg"
 
     # These display lines of dialogue.
-    show taylor at center
+    show taylor at center:
+        zoom 0.65
     
     taylor "This town…empty of its former glory…the town I grew up in. Shattered by a dictatorship that punishes those they deem unfit."
 
@@ -32,8 +33,10 @@ label scene1:
 
     taylor "Anyone who tries? Well…they never see the light of day again."
     
-    show hayden at left
-    show taylor at right
+    show hayden at left:
+        zoom 0.75
+    show taylor at right:
+        zoom 0.65
 
     hayden "Tay, where are you going?"
 
