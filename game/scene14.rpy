@@ -1,10 +1,35 @@
+define taylor_thought = Character("Taylor" , what_italic = True)
+define taylor = Character("Taylor")
+define hayden = Character("Hayden")
+define logan = Character("Logan")
+define bella = Character("Bella")
+define alex = Character("Alex")
+define ruler = Character("The Ruler")
+define julie = (Character("Julie"))
+define kyle = Character("Kyle")
+define cara = Character("Miss Cara")
+define pierce = Character("Pierce")
+
 label scene14:
+
+    image taylor = "TaylorPlaceholder.png"
+    image hayden = "HaydenPlaceholder.png"
+    image logan = "LoganPlaceholder.png"
+    image bella = "BellaPlaceholder.png"
+    image alex = "AlexPlaceholder.png"
+    image ruler = "RulerPlaceholderr.png"
+    image julie = "JuliePlaceholder.png"
+    image kyle = "KylePlaceholder.png"
+    image pierce = "PiercePlaceholder.png"
+    image cara = "CaraPlaceholder.png"
 
     scene throne_room with fade
 
-    show ruler angry at center
-    show taylor serious at left
-    show hayden nervous at right
+    show ruler at center
+    show taylor at left:
+        zoom 0.65
+    show hayden at right:
+        zoom 0.75
 
     # OPENING
 
@@ -20,7 +45,6 @@ label scene14:
 
     ruler "I’LL HAVE YOU ALL ARRESTED AND EXECUTED!"
 
-    show taylor angry
     taylor "Not if we make sure your reign ENDS HERE!"
 
 
@@ -30,6 +54,9 @@ label scene14:
 
     $ tries = 5
     $ wins = 0
+
+    # Optional: import random if not already
+    $ import random
 
     # Start battle loop
     label battle_loop:
@@ -41,13 +68,16 @@ label scene14:
             "Choose your move:"
 
             "Attack":
-                $ result = renpy.random.randint(0, 1)
+                # 80% chance to succeed
+                $ result = 1 if random.random() < 0.8 else 0
 
             "Defend":
-                $ result = renpy.random.randint(0, 1)
+                # 50% chance to succeed
+                $ result = 1 if random.random() < 0.5 else 0
 
             "Counter":
-                $ result = renpy.random.randint(0, 1)
+                # 30% chance to succeed
+                $ result = 1 if random.random() < 0.8 else 0
 
         if result == 1:
             $ wins += 1
@@ -72,7 +102,7 @@ label scene14:
 # BAD END
 label ruler_win:
 
-    show ruler grin at center
+    show ruler at center
 
     ruler "Oh how I cannot WAIT for execution day…"
 
@@ -82,18 +112,18 @@ label ruler_win:
 
     return
 
-
 # GOOD END (YOU WIN)
 
 label ruler_defeat:
 
-    show ruler shocked at center
+    show ruler at center
 
     ruler "D…D…DAMN YOU, TAYLOR JENKINS!"
 
     ruler "I WILL SEE TO IT THAT YOU AND YOUR BROTHER ARE KILLED!"
 
-    show taylor calm
+    show taylor at left:
+        zoom 0.65
     taylor "I don’t think so."
 
 # you can add audio for dramatic effect
@@ -103,16 +133,15 @@ label ruler_defeat:
 
     "STAB."
 
-    show alex shocked at right
+    hide hayden
+    hide ruler
+    show alex at right
 
     alex "…You…you killed him…"
 
-    show taylor serious
     taylor "…Yeah. I did."
 
     # SELF DESTRUCT
-
-
 
     "Castle PA" "ALERT! Intruders detected."
 
@@ -120,18 +149,25 @@ label ruler_defeat:
 
     "Castle PA" "Self destruct sequence initiated."
 
-    show bella shocked
+    hide taylor
+    show bella at left
     bella "SELF DESTRUCT?!"
 
-    show logan scared
+    hide alex
+    show logan at right
     logan "SHIT—we gotta RUN!"
 
-    show taylor urgent
+    hide bella
+    show taylor at left:
+        zoom 0.65
     taylor "…Alex. Come on."
 
+    show alex at center
     alex "Wait… you’re saving me too?"
 
-    show hayden urgent
+    hide logan
+    show hayden at right:
+        zoom 0.75
     hayden "YES NOW MOVE BEFORE WE ALL DIE!"
 
     # escaping the castle
@@ -139,6 +175,11 @@ label ruler_defeat:
     # you can add audio for dramatic effect
 
     scene castle_escape with fade
+
+    hide alex
+    hide hayden
+    show taylor at center:
+        zoom 0.65
 
     taylor_thought "We ran."
 
@@ -159,27 +200,30 @@ label ruler_defeat:
     # FINAL CROWD SCENE
     
     scene city_crowd with fade
+    hide pierce
+    "Civilian" "{size=-5} What happened to the castle?{/size}"
+    "Civilian" "{size=-5} Did they actually survive that?{/size}"
 
-    "Civilian" "{size=-5}(whispering) What happened to the castle?{/size}"
-    "Civilian" "{size=-5}(whispering) Did they actually survive that?{/size}"
-
-    show julie shocked
+    hide taylor
+    show julie at right
     julie "{size=-5}(whispering) Kyle—look! It’s Tay!{/size}"
 
-    show kyle shocked
+    show kyle at left
     kyle "{size=-5}(whispering) What the hell…{/size}"
 
-    show cara serious
+    hide julie
+    hide kyle
+    show cara at center
     cara "The children… they’re all here…"
 
-    show pierce proud
+    hide cara
+    show pierce at center:
+        zoom 0.75
     pierce "I knew they could do it…"
 
     "Guard" "Does this mean we’re free?"
 
     stop music fadeout 2.0
     scene black with fade
-
-    "END OF SCENE 14"
 
     return
