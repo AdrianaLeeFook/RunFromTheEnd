@@ -3,6 +3,7 @@
 define taylor = (Character("Taylor"))
 define taylor_thought = Character("Taylor" , what_italic = True)
 define julie = (Character("Julie"))
+define kyle = Character("Kyle")
 
 
 
@@ -14,7 +15,8 @@ label scene2:
     scene bg room
 
     image taylor = "taylor.jpg"
-    image julie = 
+    image julie = "JuliePlaceholder.png"
+    image kyle = "KylePlaceholder.png"
 
     #Taylor inside thoughts as he's leaving and walking to the protest
 
@@ -35,8 +37,8 @@ label scene2:
     #Julie in the middle of protesting and then sees Taylor and gets excited
     #show both characters
 
-    show taylor neutral at right
-    show julie loud at left
+    show taylor at right
+    show julie at left
 
     julie "NO MORE DICTATORS! GIVE US OUR FREEDOM!"
 
@@ -51,12 +53,8 @@ label scene2:
     taylor "We need a resolution that doesn't involve any of those bastards."
 
     julie "And here I thought you’d stay back for once."
-    
-    show julie worried
 
     julie "You go to EVERYTHING! I thought you’d be taking a break!"
-
-    show taylor serious
 
     taylor "There’s no time for breaks."
 
@@ -68,64 +66,64 @@ label scene2:
 
     label protest_scene:
 
-   #scene of outside protest added her
+#scene of outside protest added her
 
     # Initial characters
-    show taylor neutral at left_pos
-    show julie happy at right_pos
+    show taylor at left
+    show julie at right
 
     
-    show kyle grin at center with moveinbottom
+    show kyle at center with moveinbottom
 
     # Kyle speaking  focus him
-    show kyle grin at center, focus
-    show taylor neutral at left_pos, dim
-    show julie happy at right_pos, dim
+    show kyle at center
+    show taylor at left
+    show julie at right
 
     kyle "Woahhh, Tay-Tay, you gotta slow your roll. Protests are peaceful obligations, bro."
 
     # Taylor responds → focus Taylor
-    show taylor annoyed at center_left, focus
-    show kyle grin at center, dim
-    show julie happy at right_pos, dim
+    show taylor at left
+    show kyle at center
+    show julie at right
 
     taylor "Oh please, you come to protests for the free food, Kyle."
 
     # Kyle again → focus Kyle
-    show kyle smug at center, focus
-    show taylor annoyed at left_pos, dim
-    show julie happy at right_pos, dim
+    show kyle at center
+    show taylor at left
+    show julie at right
 
     kyle "And to support a valiant cause. Our freedom. And the donuts, man. The donuts."
 
     # Taylor → focus Taylor
-    show taylor smirk at center_left, focus
-    show kyle smug at center, dim
-    show julie happy at right_pos, dim
+    show taylor at center
+    show kyle at left
+    show julie at right
 
     taylor "So human freedom and donuts are on your agenda as usual...got it..."
 
     # JULIE joins back in
    
-    show julie happy at center_right, focus
-    show taylor smirk at left_pos, dim
-    show kyle smug at center, dim
+    show julie at center
+    show taylor at left
+    show kyle at right
 
     julie "Hey, the donut vendors at these things are AWESOME! I don't blame Kyle at all."
 
     # TAYLOR 
 
-    show taylor neutral at center_left, focus
-    show julie happy at right_pos, dim
-    show kyle smug at center, dim
+    show taylor at center
+    show julie at right
+    show kyle at left
 
     taylor "Whatever. As long as we're fighting for what we want, I don't see a problem."
 
     # KYLE EXITS
 
-    show kyle grin at center, focus
-    show taylor neutral at left_pos, dim
-    show julie happy at right_pos, dim
+    show kyle at center, 
+    show taylor at left
+    show julie at right
 
     kyle "I'm gonna get more donuts, dudes. LATERS!"
 
@@ -140,37 +138,37 @@ label scene2:
 
     # TONE SHIFT (SERIOUS)
 
-    show julie worried at center_right, focus
-    show taylor neutral at left_pos, dim
+    show julie at right
+    show taylor at left
 
     julie "So...how are ya holding up, Tay?"
 
-    show taylor sad at center_left, focus
-    show julie worried at right_pos, dim
+    show taylor at left
+    show julie at right
 
     taylor "Oh, you mean after I lost my parents a few weeks ago? Still awful. Hayden and I have had to hide more just because of it."
 
-    show julie sad at center_right, focus
-    show taylor sad at left_pos, dim
+    show julie at right
+    show taylor at left
 
     julie "That's awful..."
 
     # TAYLOR OPENS UP
 
-    show taylor sad at center_left, focus
-    show julie sad at right_pos, dim
+    show taylor at left
+    show julie at right
 
     taylor "I miss them like hell, but...it's made me stronger. I want to make a change even more than before."
 
     # Julie responds
-    show julie worried at center_right, focus
-    show taylor sad at left_pos, dim
+    show julie at right
+    show taylor at left
 
     julie "That's the spirit! But seriously, please take a break. You're an easy target. Even with your mask"
 
     # Taylor pushes back
-    show taylor serious at center_left, focus
-    show julie worried at right_pos, dim
+    show taylor at left
+    show julie at right
 
     taylor "I switch it up a lot, I'm not scared."
 
@@ -179,28 +177,28 @@ label scene2:
     # Screen shake + louder atmosphere
     with vpunch
 
-   # maybesound " need to add audio"
+# maybesound " need to add audio"
 
     "Guard 1" "OK! EVERYONE MOVE IT! IF YOU DON'T LEAVE NOW, YOU WILL BE EXECUTED!"
 
     # Julie reacts (lighter tone but nervous)
 
-    show julie nervous at center_right, focus
-    show taylor serious at left_pos, dim
+    show julie at right
+    show taylor at left
 
     julie "Aw man, what the heck!"
 
     # Taylor reaction (calm/dismissive)
 
-    show taylor annoyed at center_left, focus
-    show julie nervous at right_pos, dim
+    show taylor at left
+    show julie at right
 
     taylor "Psh."
 
     # JULIE EXITS
 
-    show julie worried at center_right, focus
-    show taylor annoyed at left_pos, dim
+    show julie at right
+    show taylor at left
 
     julie "Well, I'll see ya around, Tay. don't get yourself killed out there."
 
@@ -210,19 +208,19 @@ label scene2:
 
     # Taylor left alone (optional final beat)
 
-    show taylor serious at center
+    show taylor at center
 
     #taylor making her way out
     
-    show taylor sad at center_left, focus
+    show taylor at left
 
     taylor "Yeah, I know."
 
     # Kyle pops back in briefly (optional visual or just voice)
-    show kyle grin at right_pos with moveinright
+    show kyle at right with moveinright
 
-    show kyle grin at right_pos, focus
-    show taylor neutral at center_left, dim
+    show kyle at right
+    show taylor at left
 
     kyle "BYE TAY-TAY! Here, take some donuts for the little man."
 
@@ -230,7 +228,7 @@ label scene2:
     hide kyle with moveoutright
 
     # Taylor responds
-    show taylor neutral at center, focus
+    show taylor at center
 
     taylor "Thanks."
     pause 0.5
@@ -240,7 +238,7 @@ label scene2:
     # stop sound fadeout 1.0
     # stop music fadeout 2.0
 
-    show taylor serious at center
+    show taylor at center
 
     taylor_thought "Some folks decided to stay, but when your parents were the ones leading the protests at their peak you have to hide. That's my life."
 

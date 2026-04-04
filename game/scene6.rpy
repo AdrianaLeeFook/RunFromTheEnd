@@ -1,11 +1,19 @@
+define taylor_thought = Character("Taylor" , what_italic = True)
+
 label scene6:
+
+    image taylor = "TaylorPlaceholder.png"
+    image hayden = "HaydenPlaceholder.png"
+    image logan = "LoganPlaceholder.png"
+    image bella = "BellaPlaceholder.png"
+    image alex = "AlexPlaceholder.png"
 
     scene dining_room with fade
 
 #there isn't any audio that I have but I think it will sound good with some here 
     #play music audio fadein 2.0
 
-    show taylor neutral at center
+    show taylor at center
 
     # taylors arrival 
 

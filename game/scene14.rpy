@@ -26,22 +26,28 @@ label scene14:
 
     # PUZZLE SYSTEM
 
-    $ wins = 0
-    $ tries = 5
+    label test_menu:
 
-    while tries > 0:
+    $ tries = 5
+    $ wins = 0
+
+    # Start battle loop
+    label battle_loop:
+
+        if tries <= 0:
+            jump check_result
 
         menu:
-            "Choose your move":
+            "Choose your move:"
 
-                "Attack":
-                    $ result = renpy.random.randint(0,1)
+            "Attack":
+                $ result = renpy.random.randint(0, 1)
 
-                "Defend":
-                    $ result = renpy.random.randint(0,1)
+            "Defend":
+                $ result = renpy.random.randint(0, 1)
 
-                "Counter":
-                    $ result = renpy.random.randint(0,1)
+            "Counter":
+                $ result = renpy.random.randint(0, 1)
 
         if result == 1:
             $ wins += 1
@@ -53,17 +59,17 @@ label scene14:
 
         "Wins: [wins] / 5   Tries left: [tries]"
 
-    # CHECK RESULT
+        jump battle_loop  # repeat the loop
 
-    if wins >= 4:
-        jump ruler_defeat
-    else:
-        jump ruler_win
+    # Check result after all tries
+    label check_result:
 
-
+        if wins >= 4:
+            jump ruler_defeat
+        else:
+            jump ruler_win
 
 # BAD END
-
 label ruler_win:
 
     show ruler grin at center
