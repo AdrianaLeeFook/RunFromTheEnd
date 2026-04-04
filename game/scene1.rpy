@@ -13,30 +13,37 @@ label scene1:
     image Hayden = "hayden.jpg"
 
     # The dialogue for this scene. And to show the character sprites.
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
     
-    Taylor "This town...empty of its former glory...the town I grew up in. Shattered by a dictatorship that punishes those they deem unfit. It's hell. Utter and complete hell. They didn't hesistate with taking over. I want to leave, but we've all been stuck here for five years. Anyone who tries? Well...they never see the light of day again."
-    
-    show Hayden at left
-    show Taylor at right
+    Taylor "This town…empty of its former glory…the town I grew up in. Shattered by a dictatorship that punishes those they deem unfit."
 
-    Hayden "Tay,where are you going?"
+    Taylor "It’s hell. Utter and complete hell. They didn’t hesitate with taking over. I want to leave, but we’ve all been stuck here for five years."
+
+    Taylor "Anyone who tries? Well…they never see the light of day again."
+    
+    show Hayden at left:
+        zoom 0.75
+    show Taylor at right:
+        zoom 0.65
+
+    Hayden "Tay, where are you going?"
 
     Taylor "...Protest."
 
-    Hayden "Again? Taylor,you know what hapens at those!"
+    Hayden "Again? Taylor, you know what happens at those!"
 
-    Taylor "They can try and silence us...but I don't get caught."
+    Taylor "Please. They can try and silence us…but I don’t get caught."
 
     Hayden "But Taylor.."
 
-    Taylor "Hayden,it doesn't matter right now. I..."
+    Taylor "Hayden, it doesn't matter right now. I..."
  
-    Hayden "Taylor,you don't have to go to every protest."
+    Hayden "Taylor, you don't have to go to every protest."
 
     Taylor "I know. But I feel like I have to. The only way change is going to happen is if they hear us."
 
-    Hayden "Taylor,I'm worried about you"
+    Hayden "Taylor, I'm worried about you"
  
     Taylor "...Don't be. Please. For your sake and mine..."
 
@@ -48,7 +55,7 @@ label scene1:
   
     Taylor "Too bad."
 
-    Hayden "Hmph. I don't want you getting hurt, is that so bad to be concerned about, Tay?"
+    Hayden "I don’t want you getting hurt, is that so bad to be concerned about, Tay?"
 
     Taylor "No, but you don't need to worry about me. I'm fine."
    
