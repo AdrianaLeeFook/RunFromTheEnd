@@ -26,28 +26,32 @@ label scene1:
     # These display lines of dialogue.
     show taylor at center
     
-    taylor "This town...empty of its former glory...the town I grew up in. Shattered by a dictatorship that punishes those they deem unfit. It's hell. Utter and complete hell. They didn't hesistate with taking over. I want to leave, but we've all been stuck here for five years. Anyone who tries? Well...they never see the light of day again."
+    taylor "This town…empty of its former glory…the town I grew up in. Shattered by a dictatorship that punishes those they deem unfit."
+
+    taylor "It’s hell. Utter and complete hell. They didn’t hesitate with taking over. I want to leave, but we’ve all been stuck here for five years."
+
+    taylor "Anyone who tries? Well…they never see the light of day again."
     
     show hayden at left
     show taylor at right
 
-    hayden "Tay,where are you going?"
+    hayden "Tay, where are you going?"
 
     taylor "...Protest."
 
-    hayden "Again? Taylor,you know what hapens at those!"
+    hayden "Again? Taylor, you know what happens at those!"
 
-    taylor "They can try and silence us...but I don't get caught."
+    taylor "Please. They can try and silence us…but I don’t get caught."
 
     hayden "But Taylor.."
 
-    taylor "Hayden,it doesn't matter right now. I..."
+    taylor "Hayden, it doesn't matter right now. I..."
  
-    hayden "Taylor,you don't have to go to every protest."
+    hayden "Taylor, you don't have to go to every protest."
 
     taylor "I know. But I feel like I have to. The only way change is going to happen is if they hear us."
 
-    hayden "Taylor,I'm worried about you"
+    hayden "Taylor, I'm worried about you"
  
     taylor "...Don't be. Please. For your sake and mine..."
 
@@ -59,7 +63,7 @@ label scene1:
   
     taylor "Too bad."
 
-    hayden "Hmph. I don't want you getting hurt, is that so bad to be concerned about, Tay?"
+    hayden "I don’t want you getting hurt, is that so bad to be concerned about, Tay?"
 
     taylor "No, but you don't need to worry about me. I'm fine."
    
