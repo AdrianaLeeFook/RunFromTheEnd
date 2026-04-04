@@ -171,7 +171,7 @@ label alex_win:
 
     "GAME END"
 
-    return
+    jump scene12
 
 # GOOD END (YOU WIN)
 

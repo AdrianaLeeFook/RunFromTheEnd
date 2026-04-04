@@ -59,7 +59,8 @@ label scene16:
 
     Kyle "YES! I WANT MORE DONUTS! THE DONUT VENDOR ISN’T HERE!"
 
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
 
     Taylor "You got it, Juls!"
 
