@@ -32,6 +32,6 @@ label start:
    call scene13
    call scene14
    #call scene15
-   #call scene16
+   call scene16
 
 return
