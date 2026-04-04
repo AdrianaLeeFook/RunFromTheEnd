@@ -21,8 +21,10 @@ label scene13:
     # The dialogue for this scene. And to show the character sprites.
     
     show Bella at left
-    show TheRuler at right
-    show Taylor at center
+    show TheRuler at right:
+        zoom 0.75
+    show Taylor at center:
+        zoom 0.65
 
     Bella "YES! Way to go Taylor!"
 
@@ -47,7 +49,8 @@ label scene13:
     Alex "Taylor Jenkins."
 
     hide Alex
-    show Taylor at left 
+    show Taylor at left:
+        zoom 0.65
     
     TheRuler "Oh! THAT fugitive! What a joyous day! I'll be able to do her execution…personally."
    
@@ -85,7 +88,7 @@ label scene13:
    
     Logan "The stories Miss Cara told us were bullshit."
     
-    hide Loagan
+    hide Logan
     hide Bella
     show Alex at left 
     
@@ -94,7 +97,8 @@ label scene13:
     Alex "Eh. No. She's probably freaking out."
     
     hide Alex 
-    show Taylor at left
+    show Taylor at left:
+        zoom 0.65
 
     Taylor "It doesn't matter what kind of plans you guys have. This reign of terror ends now."
    
