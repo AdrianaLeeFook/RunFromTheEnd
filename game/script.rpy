@@ -10,7 +10,6 @@ define Alex = Character("Alex")
 
 # The game starts here.
 label start:
-
     call scene3
-
+    call scene7
     return
