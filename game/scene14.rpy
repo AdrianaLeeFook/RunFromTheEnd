@@ -142,12 +142,8 @@ label ruler_defeat:
     taylor "…Yeah. I did."
 
     # SELF DESTRUCT
-
-    "Castle PA" "ALERT! Intruders detected."
-
-    "Castle PA" "The King has been found dead."
-
-    "Castle PA" "Self destruct sequence initiated."
+    play sound "pasystem.mp3"
+    "Castle PA" "ALERT! Intruders have breached the castle. The King has been found dead. Self destruct sequence will now begin."
 
     hide taylor
     show bella at left
