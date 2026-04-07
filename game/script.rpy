@@ -12,4 +12,5 @@ define Alex = Character("Alex")
 label start:
     call scene3
     call scene7
+    call scene11
     return
