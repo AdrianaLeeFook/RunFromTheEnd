@@ -91,7 +91,6 @@ label scene11:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Logan "Holy shit. If we live through this, I’m doing some renovations on the old place."
 
@@ -144,7 +143,6 @@ label scene11:
     show Bella:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Taylor "…OVER TEACHING HIS DAUGHTER TO DEFEND HERSELF?!"
 
@@ -154,11 +152,9 @@ label scene11:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Bella:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Logan "Damn. That’s impressive, even for you, Bell."
 
