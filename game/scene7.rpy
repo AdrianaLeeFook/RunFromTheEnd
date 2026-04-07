@@ -24,7 +24,6 @@ label scene7:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     show Taylor:
         xalign 0.8
@@ -39,7 +38,6 @@ label scene7:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Logan "(whispered) Yeah. It’s…worse than bad. Awful. Abhorrent. Sickening."
 
@@ -49,7 +47,6 @@ label scene7:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Bella "(whispered) Mhm. Which sucks, Miss Cara is sweet, but it isn’t super safe here!"
 
@@ -67,7 +64,6 @@ label scene7:
     show Alex:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Alex "(whispered) We’ll be packed and ready to go by the time Miss Cara goes to sleep."
 
@@ -111,7 +107,6 @@ label scene7:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Bella "It’s timeeee!"
 
@@ -133,7 +128,6 @@ label scene7:
     show Alex:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Alex "Before we went outside though, I went to work on the security system."
 
@@ -149,7 +143,6 @@ label scene7:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Taylor:
         xalign 0.8
         yalign 0.68
@@ -174,7 +167,6 @@ label scene7:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Bella "Woah! The outside looks so different now!"
 
@@ -182,7 +174,6 @@ label scene7:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Logan "Holy shit…this place went even further to hell."
 
@@ -203,11 +194,9 @@ label scene7:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Bella "Alex has! The rest of us just…didn’t bother."
 
@@ -224,7 +213,6 @@ label scene7:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Logan "The locked rooms."
 
@@ -240,7 +228,6 @@ label scene7:
     show Alex:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Alex "We gotta walk a little farther first."
 

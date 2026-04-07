@@ -24,12 +24,10 @@ label scene11:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Bella "Yeah, sorry Alex! Logan’s good at what he does."
 
@@ -37,7 +35,6 @@ label scene11:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Logan "See?"
 
@@ -87,7 +84,6 @@ label scene11:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Bella "It’s as if a PRINCESS would live here!"
 
@@ -123,7 +119,6 @@ label scene11:
     show Bella:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Bella "So as I was saying it’s as if this place was run by a- oh sorry! Didn’t see you there!"
 
@@ -133,11 +128,9 @@ label scene11:
     show Alex:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Bella:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Alex "I- Bella, remind me to never get on your bad side."
 
@@ -180,23 +173,83 @@ label scene11:
 
     Hayden "Don’t get too excited yet, there’s still more coming!"
 
-    # Puzzle Game: Fight against the Guards
-    # If Puzzle Success:
+    label test_menu3:
+
+    $ tries = 5
+    $ wins = 0
+
+    $ import random
+
+    # Start battle loop
+    label battle_loop3:
+
+    if tries <= 0:
+        jump check_result3
+
+    menu:
+        "Choose your move:"
+
+        "Strike":
+            # 80% chance to succeed
+            $ result = 1 if random.random() < 0.8 else 0
+
+        "Defend":
+            # 50% chance to succeed
+            $ result = 1 if random.random() < 0.5 else 0
+
+        "Counter":
+            # 30% chance to succeed
+            $ result = 1 if random.random() < 0.8 else 0
+
+    if result == 1:
+        $ wins += 1
+        "You gained the advantage!"
+    else:
+        "The guards gained the advantage!"
+
+    $ tries -= 1
+
+    "Wins: [wins] / 5   Tries left: [tries]"
+
+    jump battle_loop3  # repeat the loop
+
+# Check result after all tries
+label check_result3:
+
+    if wins >= 4:
+        jump taylor_win
+    else:
+        jump taylor_defeat
+
+# BAD END
+label taylor_defeat:
+
+    show Taylor at center
+
+    Taylor "URGH…dammit…"
+
+    scene black with fade
+
+    "GAME END"
+
+    jump scene11
+
+# GOOD END (YOU WIN)
+
+label taylor_win:
+
+    show Taylor at center
+
     Taylor "That was easier than I thought…"
 
-    # If Puzzle Fail:
-    # Taylor "URGH…dammit…"
-    # return
-
+    hide Taylor
     hide Hayden
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Logan:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Bella "That was AWESOME!"
 
@@ -222,7 +275,6 @@ label scene11:
     show Alex:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Alex "Hey, gotta love times when you can just deal some well deserved justice."
 
@@ -237,7 +289,6 @@ label scene11:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Taylor:
         xalign 0.8
         yalign 0.68
