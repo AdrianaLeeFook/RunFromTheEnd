@@ -220,7 +220,8 @@ label check_result3:
 # BAD END
 label taylor_defeat:
 
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
 
     Taylor "URGH…dammit…"
 
@@ -234,7 +235,8 @@ label taylor_defeat:
 
 label taylor_win:
 
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
 
     Taylor "That was easier than I thought…"
 
