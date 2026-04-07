@@ -18,7 +18,7 @@ label scene1:
     
     Taylor "This town…empty of its former glory…the town I grew up in. Shattered by a dictatorship that punishes those they deem unfit."
 
-    Taylor "It’s hell. Utter and complete hell. They didn’t hesitate with taking over. I want to leave, but we’ve all been stuck here for five years."
+    Taylor "It's hell. Utter and complete hell. They didn't hesitate with taking over. I want to leave, but we've all been stuck here for five years."
 
     Taylor "Anyone who tries? Well…they never see the light of day again."
     
@@ -33,7 +33,7 @@ label scene1:
 
     Hayden "Again? Taylor, you know what happens at those!"
 
-    Taylor "Please. They can try and silence us…but I don’t get caught."
+    Taylor "Please. They can try and silence us…but I don't get caught."
 
     Hayden "But Taylor.."
 
@@ -55,7 +55,7 @@ label scene1:
   
     Taylor "Too bad."
 
-    Hayden "I don’t want you getting hurt, is that so bad to be concerned about, Tay?"
+    Hayden "I don't want you getting hurt, is that so bad to be concerned about, Tay?"
 
     Taylor "No, but you don't need to worry about me. I'm fine."
    
