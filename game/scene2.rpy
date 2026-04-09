@@ -45,7 +45,7 @@ label scene2:
     stop sound
 
     taylor "Hey, Jules."
-    
+
     play sound "Julie_Line_2.mp3"
     julie "EEE! Tay, you MADE IT! You’re late!"
     stop sound
@@ -62,7 +62,9 @@ label scene2:
 
     taylor "There’s no time for breaks."
 
-    julie "Girlll you NEED to take some time to rest! It’ll be good for youuuuu."
+    play sound "Julie_Line_4.mp3"
+    julie "Girl you NEED to take some rest! It’ll be good for youuuuu."
+    stop sound
 
     taylor "Yeah yeah, I know. Hayden keeps saying the same thing. But I can’t rest. Not until those assholes are dead!"
 
@@ -121,7 +123,9 @@ label scene2:
         zoom 0.65
     show kyle at right
 
-    julie "Hey, the donut vendors at these things are AWESOME! I don't blame Kyle at all."
+    play sound "Julie_Line_5.mp3"
+    julie "Hey, the donut vendors at these things are AWESOME! I don’t blame Kyle at all."
+    stop sound
 
     # TAYLOR 
 
@@ -155,8 +159,9 @@ label scene2:
     show julie at right
     show taylor at left:
         zoom 0.65
-
+    play sound "Julie_Line_6.mp3"
     julie "So...how are ya holding up, Tay?"
+    stop sound
 
     show taylor at left:
         zoom 0.65
@@ -167,8 +172,9 @@ label scene2:
     show julie at right
     show taylor at left:
         zoom 0.65
-
+    play sound "Julie_Line_7.mp3"
     julie "That's awful..."
+    stop sound
 
     # TAYLOR OPENS UP
 
@@ -182,8 +188,9 @@ label scene2:
     show julie at right
     show taylor at left:
         zoom 0.65
-
-    julie "That's the spirit! But seriously, please take a break. You're an easy target. Even with your mask"
+    play sound "Julie_Line_8.mp3"
+    julie "That’s the spirit! But seriously, please take a break. You’re an easy target. Even with your mask."
+    stop sound
 
     # Taylor pushes back
     show taylor at left:
@@ -208,8 +215,9 @@ label scene2:
     show julie at right
     show taylor at left:
         zoom 0.65
-
-    julie "Aw man, what the heck!"
+    play sound "Julie_Line_9.mp3"
+    julie "Aw man, the fuzz."
+    stop sound
 
     # Taylor reaction (calm/dismissive)
 
@@ -225,7 +233,9 @@ label scene2:
     show taylor at left:
         zoom 0.65
 
-    julie "Well, I'll see ya around, Tay. don't get yourself killed out there."
+    play sound "Julie_Line_10.mp3"
+    julie "Well, I’ll see ya around, Tay. Don’t get yourself killed out there."
+    stop sound
 
     taylor "Yeah, I know. Be safe, bye."
 
