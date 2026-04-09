@@ -194,7 +194,9 @@ label scene2:
 
 # maybesound " need to add audio"
 
+    play sound "guard1_timkvo.mp3"
     "Guard 1" "OK! EVERYONE MOVE IT! IF YOU DON'T LEAVE NOW, YOU WILL BE EXECUTED!"
+    stop sound
 
     # Julie reacts (lighter tone but nervous)
 

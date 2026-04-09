@@ -144,6 +144,7 @@ label ruler_defeat:
     # SELF DESTRUCT
     play sound "pasystem.mp3"
     "Castle PA" "ALERT! Intruders have breached the castle. The King has been found dead. Self destruct sequence will now begin."
+    stop sound
 
     hide taylor
     show bella at left
@@ -198,7 +199,9 @@ label ruler_defeat:
     scene city_crowd with fade
     hide pierce
     "Civilian" "{size=-5} What happened to the castle?{/size}"
-    "Civilian" "{size=-5} Did they actually survive that?{/size}"
+    play sound "Civilian2_BunBun.mp3"
+    "Civilian" "{size=-5} Did those people sneak into the castle and come out alive? That’s unbelievable!{/size}"
+    stop sound
 
     hide taylor
     show julie at right
