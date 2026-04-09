@@ -40,12 +40,15 @@ label scene2:
     show taylor at right:
         zoom 0.65
     show julie at left
-
-    julie "NO MORE DICTATORS! GIVE US OUR FREEDOM!"
+    play sound "Julie_Line_1.mp3"
+    julie "No more dictators! Give us our freedom! No more dictators! Give us our freedom!"
+    stop sound
 
     taylor "Hey, Jules."
-
-    julie "EEEEE! Taylor, you made it! But you're late!"
+    
+    play sound "Julie_Line_2.mp3"
+    julie "EEE! Tay, you MADE IT! You’re late!"
+    stop sound
 
     taylor "Yeah yeah, but I'm here."
 
@@ -53,9 +56,9 @@ label scene2:
 
     taylor "We need a resolution that doesn't involve any of those bastards."
 
-    julie "And here I thought you’d stay back for once."
-
-    julie "You go to EVERYTHING! I thought you’d be taking a break!"
+    play sound "Julie_Line_3.mp3"
+    julie "And here I thought you’d stay back for once. You go to EVERYTHING! I thought you’d take a break!"
+    stop sound
 
     taylor "There’s no time for breaks."
 
