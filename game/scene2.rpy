@@ -82,8 +82,9 @@ label scene2:
     show taylor at left:
         zoom 0.65
     show julie at right
-
+    play sound "Kyle_Line_1.mp3"
     kyle "Woahhh, Tay-Tay, you gotta slow your roll. Protests are peaceful obligations, bro."
+    stop sound
 
     # Taylor responds → focus Taylor
     show taylor at left:
@@ -98,8 +99,9 @@ label scene2:
     show taylor at left:
         zoom 0.65
     show julie at right
-
+    play sound "Kyle_Line_2.mp3"
     kyle "And to support a valiant cause. Our freedom. And the donuts, man. The donuts."
+    stop sound
 
     # Taylor → focus Taylor
     show taylor at center:
@@ -133,7 +135,7 @@ label scene2:
     show taylor at left:
         zoom 0.65
     show julie at right
-
+    play sound "Kyle_Line_3.mp3"
     kyle "I'm gonna get more donuts, dudes. LATERS!"
 
     hide kyle with moveoutright
@@ -141,7 +143,7 @@ label scene2:
     # CROWD CHANT add some chanting audio
 
     kyle "WE WANT FREEDOM, NOT DEPENDENCE! WE WANT FREEDOM, NOT DEPENDENCE!"
-
+    stop sound
     # use vpunch to show Kyle protesting as he leaves the scence
     with vpunch
 
@@ -244,9 +246,9 @@ label scene2:
     show kyle at right
     show taylor at left:
         zoom 0.65
-
+    play sound "Kyle_Line_4.mp3"
     kyle "BYE TAY-TAY! Here, take some donuts for the little man."
-
+    stop sound
     # Kyle exits again
     hide kyle with moveoutright
 
