@@ -56,8 +56,9 @@ label scene16:
 
     hide Logan
     show Kyle at left
-
+    play sound "Kyle_Line_7.mp3"
     Kyle "YES! I WANT MORE DONUTS! THE DONUT VENDOR ISN’T HERE!"
+    stop sound
 
     show Taylor at center:
         zoom 0.65

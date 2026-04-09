@@ -162,8 +162,9 @@ label scene15:
         xalign 0.8
         yalign 0.68
         zoom 0.75
-
+    play sound "Kyle_Line_6.mp3"
     Kyle "Yoooo dude, that’s so sick! And the little man’s here!"
+    stop sound
 
     Hayden "ACK! KYLE! STOPPP!"
 
