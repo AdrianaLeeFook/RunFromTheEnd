@@ -141,8 +141,9 @@ label scene15:
     show Julie:
         xalign 0.5
         yalign 0.68
-
+    play sound "Julie_Line_12.mp3"
     Julie "TAY TAYYYY! WHAT HAPPENED?! WHAT DID YOU DO GIRL?!"
+    stop sound
 
     hide Julie
     show Taylor:

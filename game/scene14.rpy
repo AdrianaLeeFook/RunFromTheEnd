@@ -205,7 +205,9 @@ label ruler_defeat:
 
     hide taylor
     show julie at right
-    julie "{size=-5}(whispering) Kyle—look! It’s Tay!{/size}"
+    play sound "Julie_Line_11.mp3"
+    julie "{size=-5}(whispering) Kyle look! It’s Tay!{/size}"
+    stop sound
 
     show kyle at left
     play sound "Kyle_Line_5.mp3"
