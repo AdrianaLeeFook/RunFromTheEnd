@@ -85,8 +85,7 @@ label scene7:
 
     "Tick…tock…tick…tock…"
 
-    # Optional puzzle placeholder
-    # TODO: Jigsaw Puzzle or Wordsearch
+    call scene7_puzzle1_clock
 
     Taylor "It felt as if time was moving slower than usual. The clock in the room sounded like a Grandfather Clock, with every second weighing heavy on my conscience."
 
@@ -137,11 +136,38 @@ label scene7:
 
     Alex "Before we went outside though, I went to work on the security system."
 
-    # Timed puzzle placeholder
-    # TODO: Security system puzzle
-    # If fail:
-    # Cara "Children? Where are you going?"
-    # return
+    call scene7_puzzle2_security
+
+    if _return == "fail":
+        jump scene7_puzzle2_fail
+    else:
+        jump scene7_puzzle2_success
+
+
+label scene7_puzzle2_fail:
+
+    hide Alex
+
+    show Cara:
+        xalign 0.5
+        yalign 0.68
+        zoom 0.65
+
+    Cara "Children? Where are you going?"
+
+    "Game End"
+
+    return
+
+
+label scene7_puzzle2_success:
+
+    hide Alex
+
+    show Alex:
+        xalign 0.5
+        yalign 0.68
+        zoom 0.65
 
     Alex "(whispered) Luckily for us…Miss Cara doesn’t bother looking at her security system half the time."
 
