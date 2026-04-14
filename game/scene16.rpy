@@ -51,13 +51,15 @@ label scene16:
 
     hide Alex
     show Julie at right
-
+    play sound "Julie_Line_13.mp3"
     Julie "Go save the day again! You guys are so AWESOME! Like AWESOME AWESOMEEEE! And then…WE CAN GET TACOSSSS! Or even better…DONUTS!"
+    stop sound
 
     hide Logan
     show Kyle at left
-
+    play sound "Kyle_Line_7.mp3"
     Kyle "YES! I WANT MORE DONUTS! THE DONUT VENDOR ISN’T HERE!"
+    stop sound
 
     show Taylor at center:
         zoom 0.65
