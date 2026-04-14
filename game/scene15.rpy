@@ -141,8 +141,9 @@ label scene15:
     show Julie:
         xalign 0.5
         yalign 0.68
-
+    play sound "Julie_Line_12.mp3"
     Julie "TAY TAYYYY! WHAT HAPPENED?! WHAT DID YOU DO GIRL?!"
+    stop sound
 
     hide Julie
     show Taylor:
@@ -162,8 +163,9 @@ label scene15:
         xalign 0.8
         yalign 0.68
         zoom 0.75
-
+    play sound "Kyle_Line_6.mp3"
     Kyle "Yoooo dude, that’s so sick! And the little man’s here!"
+    stop sound
 
     Hayden "ACK! KYLE! STOPPP!"
 
