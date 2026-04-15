@@ -9,7 +9,7 @@ label scene10:
 
     scene castle_gate_night with fade
 
-    image taylor = "TaylorPlaceholder.png"gi
+    image taylor = "TaylorPlaceholder.png"
     image hayden = "HaydenPlaceholder.png"
     image logan = "LoganPlaceholder.png"
     image bella = "BellaPlaceholder.png"

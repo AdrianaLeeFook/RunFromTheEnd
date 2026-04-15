@@ -17,7 +17,6 @@ label scene2:
     scene bg scene2:
         zoom 1.5
 
-<<<<<<< HEAD
     image taylor = "taylor.jpg"
     image julie = "JuliePlaceholder.png"
     image kyle = "KylePlaceholder.png"
@@ -166,14 +165,6 @@ label scene2:
     play sound "Julie_Line_6.mp3"
     julie "So...how are ya holding up, Tay?"
     stop sound
-=======
-    show Taylor:
-        xalign 0.5
-        yalign 0.68
-        zoom 0.65
-
-    Taylor "I walked out of the house and pulled my mask up. While the town looks like a desolate wasteland, it’s best not to be recognized by these cretins at the protest."
->>>>>>> 67550acb3e441e3ee0e2b6fb088bc35a73bbbb4a
 
     Taylor "Even if it feels…repetitive, I’ll keep going."
 
@@ -182,14 +173,9 @@ label scene2:
         xalign 0.5
         yalign 0.68
         zoom 0.65
-<<<<<<< HEAD
     play sound "Julie_Line_7.mp3"
     julie "That's awful..."
     stop sound
-=======
-
-    Julie "No more dictators! Give us our freedom! No more dictators! Give us our freedom!"
->>>>>>> 67550acb3e441e3ee0e2b6fb088bc35a73bbbb4a
 
     hide Julie
     show Taylor:
@@ -200,14 +186,9 @@ label scene2:
         xalign 0.8
         yalign 0.68
         zoom 0.65
-<<<<<<< HEAD
     play sound "Julie_Line_8.mp3"
     julie "That’s the spirit! But seriously, please take a break. You’re an easy target. Even with your mask."
     stop sound
-=======
-
-    Taylor "Hey Jules."
->>>>>>> 67550acb3e441e3ee0e2b6fb088bc35a73bbbb4a
 
     Julie "EEE! Tay, you MADE IT! You’re late!"
 
@@ -219,13 +200,9 @@ label scene2:
 
     Taylor "There’s no time for breaks."
 
-<<<<<<< HEAD
     play sound "guard1_timkvo.mp3"
     "Guard 1" "OK! EVERYONE MOVE IT! IF YOU DON'T LEAVE NOW, YOU WILL BE EXECUTED!"
     stop sound
-=======
-    Julie "Girl you NEED to take some rest! It’ll be good for youuuuu."
->>>>>>> 67550acb3e441e3ee0e2b6fb088bc35a73bbbb4a
 
     Taylor "Yeah yeah, I know. Hayden keeps saying that. But I can’t rest. Not until those assholes are dead."
 
@@ -234,14 +211,9 @@ label scene2:
         xalign 0.8
         yalign 0.68
         zoom 0.65
-<<<<<<< HEAD
     play sound "Julie_Line_9.mp3"
     julie "Aw man, the fuzz."
     stop sound
-=======
-
-    Kyle "Woahhh, Tay-Tay, you gotta slow your roll. Protests are peaceful obligations, bro."
->>>>>>> 67550acb3e441e3ee0e2b6fb088bc35a73bbbb4a
 
     Taylor "Oh please, you come to protests for the free food, Kyle."
 
@@ -259,13 +231,9 @@ label scene2:
         yalign 0.68
         zoom 0.65
 
-<<<<<<< HEAD
     play sound "Julie_Line_10.mp3"
     julie "Well, I’ll see ya around, Tay. Don’t get yourself killed out there."
     stop sound
-=======
-    Julie "Hey, the donut vendors at these things are AWESOME! I don’t blame Kyle at all."
->>>>>>> 67550acb3e441e3ee0e2b6fb088bc35a73bbbb4a
 
     hide Kyle
     show Taylor:
@@ -293,18 +261,11 @@ label scene2:
         xalign 0.8
         yalign 0.68
         zoom 0.65
-<<<<<<< HEAD
     play sound "Kyle_Line_4.mp3"
     kyle "BYE TAY-TAY! Here, take some donuts for the little man."
     stop sound
     # Kyle exits again
     hide kyle with moveoutright
-=======
-
-    Julie "So…how are ya holding up, Tay?"
-
-    Taylor "Oh, you mean after I lost my parents a few weeks ago? Still awful. Hayden and I have had to hide more just because of it."
->>>>>>> 67550acb3e441e3ee0e2b6fb088bc35a73bbbb4a
 
     Julie "That’s awful…"
 
