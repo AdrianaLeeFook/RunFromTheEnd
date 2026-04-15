@@ -1,18 +1,21 @@
-# Defining the characters
+# Characters
+define Taylor = Character("Taylor", color="#c8a2ff")
+define Julie = Character("Julie", color="#ff8fd8")
+define Kyle = Character("Kyle", color="#7fd4ff")
+define Guard1 = Character("Guard 1", color="#ff4d4d")
 
-define taylor = (Character("Taylor"))
-define taylor_thought = Character("Taylor" , what_italic = True)
-define julie = (Character("Julie"))
-define kyle = Character("Kyle")
+# Images
+image bg scene2 = "scene2bg.png"
+image bg scene2guard = "scene2_guard_confrontation.png"
 
-
-
-# The game starts here
+image Taylor = "taylor.png"
+image Julie = "julie.png"
+image Kyle = "kyle.png"
 
 label scene2:
 
-    # Show the background image for the scene
-    scene bg room
+    scene bg scene2:
+        zoom 1.5
 
     image taylor = "taylor.jpg"
     image julie = "JuliePlaceholder.png"
@@ -163,101 +166,100 @@ label scene2:
     julie "So...how are ya holding up, Tay?"
     stop sound
 
-    show taylor at left:
-        zoom 0.65
-    show julie at right
+    Taylor "Even if it feels…repetitive, I’ll keep going."
 
-    taylor "Oh, you mean after I lost my parents a few weeks ago? Still awful. Hayden and I have had to hide more just because of it."
-
-    show julie at right
-    show taylor at left:
+    hide Taylor
+    show Julie:
+        xalign 0.5
+        yalign 0.68
         zoom 0.65
     play sound "Julie_Line_7.mp3"
     julie "That's awful..."
     stop sound
 
-    # TAYLOR OPENS UP
-
-    show taylor at left:
+    hide Julie
+    show Taylor:
+        xalign 0.2
+        yalign 0.68
         zoom 0.65
-    show julie at right
-
-    taylor "I miss them like hell, but...it's made me stronger. I want to make a change even more than before."
-
-    # Julie responds
-    show julie at right
-    show taylor at left:
+    show Julie:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
     play sound "Julie_Line_8.mp3"
     julie "That’s the spirit! But seriously, please take a break. You’re an easy target. Even with your mask."
     stop sound
 
-    # Taylor pushes back
-    show taylor at left:
-        zoom 0.65
-    show julie at right
+    Julie "EEE! Tay, you MADE IT! You’re late!"
 
-    taylor "I switch it up a lot, I'm not scared."
+    Taylor "You know I take any opportunity to…fight back against the new government. They’re cruel and must be put to rest."
 
-    # GUARD INTERRUPTION (HIGH TENSION)
+    Taylor "We need a new resolve that doesn’t involve…any of those bastards."
 
-    # Screen shake + louder atmosphere
-    with vpunch
+    Julie "And here I thought you’d stay back for once. You go to EVERYTHING! I thought you’d take a break!"
 
-# maybesound " need to add audio"
+    Taylor "There’s no time for breaks."
 
     play sound "guard1_timkvo.mp3"
     "Guard 1" "OK! EVERYONE MOVE IT! IF YOU DON'T LEAVE NOW, YOU WILL BE EXECUTED!"
     stop sound
 
-    # Julie reacts (lighter tone but nervous)
+    Taylor "Yeah yeah, I know. Hayden keeps saying that. But I can’t rest. Not until those assholes are dead."
 
-    show julie at right
-    show taylor at left:
+    hide Julie
+    show Kyle:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
     play sound "Julie_Line_9.mp3"
     julie "Aw man, the fuzz."
     stop sound
 
-    # Taylor reaction (calm/dismissive)
+    Taylor "Oh please, you come to protests for the free food, Kyle."
 
-    show taylor at left:
+    Kyle "And to support a valiant cause. Our freedom. And the donuts, man. The donuts."
+
+    Taylor "So human freedom and donuts are on your agenda as usual…got it…"
+
+    hide Taylor
+    show Julie:
+        xalign 0.2
+        yalign 0.68
         zoom 0.65
-    show julie at right
-
-    taylor "Psh."
-
-    # JULIE EXITS
-
-    show julie at right
-    show taylor at left:
+    show Kyle:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
 
     play sound "Julie_Line_10.mp3"
     julie "Well, I’ll see ya around, Tay. Don’t get yourself killed out there."
     stop sound
 
-    taylor "Yeah, I know. Be safe, bye."
-
-    hide julie with moveoutright
-
-    # Taylor left alone (optional final beat)
-
-    show taylor at center:
+    hide Kyle
+    show Taylor:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
 
-    #taylor making her way out
-    
-    show taylor at left:
+    Taylor "Whatever. As long as we’re fighting for what we want, I don’t see a problem."
+
+    hide Julie
+    show Kyle:
+        xalign 0.2
+        yalign 0.68
         zoom 0.65
 
-    taylor "Yeah, I know."
+    Kyle "I’m gonna get more donuts, dudes. LATERS! (trailing off) WE WANT FREEDOM, NOT DEPENDENCE! WE WANT FREEDOM, NOT DEPENDENCE!"
 
-    # Kyle pops back in briefly (optional visual or just voice)
-    show kyle at right with moveinright
-
-    show kyle at right
-    show taylor at left:
+    hide Kyle
+    hide Taylor
+    show Julie:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Taylor:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
     play sound "Kyle_Line_4.mp3"
     kyle "BYE TAY-TAY! Here, take some donuts for the little man."
@@ -265,32 +267,69 @@ label scene2:
     # Kyle exits again
     hide kyle with moveoutright
 
-    # Taylor responds
-    show taylor at center:
+    Julie "That’s awful…"
+
+    Taylor "I miss them like hell but…it’s made me stronger. I want to make a change even more than before."
+
+    Julie "That’s the spirit! But seriously, please take a break. You’re an easy target. Even with your mask."
+
+    Taylor "I switch it up a lot, I’m not scared."
+
+    hide Julie
+    hide Taylor
+
+    scene bg scene2guard:
+        zoom 1.5
+
+    Guard1 "OK! EVERYONE MOVE IT! IF YOU DON’T LEAVE NOW, YOU WILL BE EXECUTED!"
+
+    scene bg scene2:
+        zoom 1.5
+
+    show Julie:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Taylor:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
 
-    taylor "Thanks."
-    pause 0.5
+    Julie "Aw man, the fuzz."
 
+    Taylor "Psh."
 
-    # Optional: fade out crowd noise/music here
-    # stop sound fadeout 1.0
-    # stop music fadeout 2.0
+    Julie "Well, I’ll see ya around, Tay. Don’t get yourself killed out there."
 
-    show taylor at center:
+    Taylor "Yeah, I know."
+
+    hide Julie
+    show Kyle:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Taylor:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
 
-    taylor_thought "Some folks decided to stay, but when your parents were the ones leading the protests at their peak you have to hide. That's my life."
+    Kyle "BYE TAY-TAY! Here, take some donuts for the little man."
 
-    taylor_thought "Our town used to be so vibrant and beautiful now it's desolate. A total wasteland. You get caught breaking a single rule, it's either labor work or death."
+    Taylor "Thanks."
 
-    taylor_thought "Jailtime is considered mercy. Fines are basically non-existent outside of specified cases. Usually for the rich people, not for others..."
+    hide Kyle
+    hide Taylor
+    show Taylor:
+        xalign 0.5
+        yalign 0.68
+        zoom 0.65
 
-    # End of scence 2
+    Taylor "Some folks decided to stay, but when your parents were the ones leading the protests at their peak, you have to hide. That’s my life."
 
-    # Optional fade out
-    scene black with fade
+    Taylor "Our town used to be so vibrant and beautiful now it’s desolate. A total wasteland."
 
-    
+    Taylor "You get caught breaking a single rule, it’s either labor work or death."
+
+    Taylor "Jailtime is considered mercy. Fines are basically non-existent outside of specified cases. Usually for the rich people, not for others…"
 
     return

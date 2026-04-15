@@ -21,15 +21,11 @@ label scene10:
         zoom 0.65
 
     # ARRIVAL
-    taylor_thought "It felt too good to be true… but we had a plan."
+    taylor "It felt too good to be true but…we had a plan. We had defense. I have a team."
 
-    taylor_thought "We had defense."
+    taylor "We arrived at the gates of the castle a few hours later, after a quick snack break as we all wanted to eat something. But we made it." 
 
-    taylor_thought "I had a team."
-
-    taylor_thought "A few hours later, after a quick snack break… we made it."
-
-    taylor_thought "The castle gates stood right in front of us."
+    taylor "Considering the area was unguarded, it felt like an easy entrance. That’s what we thought at first."
 
     # Everyone gets to the castle
     
@@ -37,25 +33,26 @@ label scene10:
         zoom 0.75
     show bella at right
 
-    hayden "Woah… the castle is a lot bigger than I imagined."
+    hayden "Woah. The castle is a lot bigger than I ever imagined."
 
-    bella "WOAH! It’s MASSIVE!"
+    bella "Woah! It’s MASSIVE!"
 
     hide hayden
     show taylor at left:
         zoom 0.65
-    taylor "And unguarded… which makes it even more suspicious."
+    
+    taylor "And unarmed. Which is suspicious enough."
 
     hide bella
     show logan at right
-    logan "An unmanned castle on a protest day?"
 
-    logan "Yeah… that’s not normal."
+    logan "An unmanned castle on a heavy protest day is confusing and suspicious."
+
     
     hide taylor
     show alex at left
 
-    alex "Hey… maybe we can just kick the gate."
+    alex "Hey maybe we can just kick the gate."
 
     hide logan
     show bella at right
@@ -66,7 +63,8 @@ label scene10:
     hide bella
     show taylor at right:
         zoom 0.65
-    taylor "…Your funeral. Go ahead."
+
+    taylor "…Your funeral. Good luck."
 
     alex "Bet."
 
@@ -79,17 +77,15 @@ label scene10:
 
     pause 0.5
 
-    taylor_thought "I didn’t think they’d actually do it…"
-
-    taylor_thought "But they did."
-
-    taylor_thought "The gate just… gave in."
+    taylor " I didn’t think they’d actually kick open the gate. But they did. That was shocking enough. You’d think the area would have a higher security measure."
 
     hide taylor
     show logan at right
+
     logan "…Didn’t think that’d ACTUALLY work. But… wow."
 
-    alex "Let’s get moving."
+    alex "Let’s get moving!"
+
 
     # ENTERING THE GROUNDS
 
@@ -98,33 +94,24 @@ label scene10:
     hide alex
     show hayden at left:
         zoom 0.75
-    hayden "That’s insane… I’m kinda scared…"
+    hayden "That’s insane…I’m scared…"
 
     hide logan
     show bella at right
     bella "Eh. It’s Alex."
 
-    bella "I’m more concerned that a government gate just… broke like that."
+    bella "Eh. It’s Alex, I wouldn’t be that scared that they can easily kick down a gate to a government establishment."
 
     # The tone starts to shift 
 
     show taylor at center:
         zoom 0.65
 
-    taylor_thought "As we walked further in… something still felt wrong."
-
-    taylor_thought "Too easy."
-
-    taylor_thought "Way too easy."
-
-    taylor_thought "I’ve never been here before…"
-
-    taylor_thought "But it felt like a graveyard."
-
-    taylor_thought "Like this place carried memories."
-
-    taylor_thought "Families… friends… torn apart on these very grounds."
-
+    taylor "As we walked, everything still felt…too good to be true. How Alex just…easily kicked down the gate. How normalized some of these reactions are. "
+   
+    taylor "I have never been on these grounds but…it felt like a mass graveyard. A land of memories. Families and friends torn apart on these very grounds."
+   
+    taylor "We kept walking until we reached the doors."
     
     #getting to castle doors 
 
@@ -135,19 +122,11 @@ label scene10:
     show taylor at right:
         zoom 0.65
 
-    alex "Alright… who’s got lockpicking skills?"
+    alex "ALockpicking anyone?"
 
-    logan "Gimme that."
-
-    logan "Lockpicking is the one thing you suck at."
+    logan "Gimme that. Lockpicking is the one thing you suck at."
 
     # End of scene
-
-    taylor_thought "Still no guards."
-
-    taylor_thought "No resistance."
-
-    taylor_thought "…Why?"
 
     stop music fadeout 2.0
     scene black with fade

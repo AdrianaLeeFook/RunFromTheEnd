@@ -1,204 +1,316 @@
-define taylor_thought = Character("Taylor" , what_italic = True)
-define taylor = Character("Taylor")
-define hayden = Character("Hayden")
-define cara = Character("Miss Cara")
-define logan = Character("Logan")
-define bella = Character("Bella")
-define alex = Character("Alex")
+# Characters
+define Taylor = Character("Taylor", color="#c8a2ff")
+define Hayden = Character("Hayden", color="#6ec1ff")
+define Bella = Character("Bella", color="#ffb6c1")
+define Logan = Character("Logan", color="#ff9e6b")
+define Alex = Character("Alex", color="#9effa1")
+define Cara = Character("Miss Cara", color="#ffd700")
+
+# Images
+image bg scene6 = "scene6bg.png"
+
+image Taylor = "taylor.png"
+image Hayden = "hayden.png"
+image Bella = "bella.png"
+image Logan = "logan.png"
+image Alex = "alex.png"
+image Cara = "cara.png"
 
 label scene6:
 
-    image taylor = "TaylorPlaceholder.png"
-    image hayden = "HaydenPlaceholder.png"
-    image logan = "LoganPlaceholder.png"
-    image bella = "BellaPlaceholder.png"
-    image alex = "AlexPlaceholder.png"
-    image cara = "CaraPlaceholder.png"
+    scene bg scene6:
+        zoom 1.5
 
-    scene dining_room with fade
-
-#there isn't any audio that I have but I think it will sound good with some here 
-    #play music audio fadein 2.0
-
-    show taylor at center:
+    show Taylor:
+        xalign 0.5
+        yalign 0.68
         zoom 0.65
 
-    # taylors arrival 
+    Taylor "As we walked over to the dining area, the other three were already at the table. Not surprising, considering this is home to them."
 
-    taylor_thought "As we walked over to the dining area, the other three were already at the table."
-
-    taylor_thought "Not surprising… this is home to them."
-
-    hide taylor
-    show bella at right
-    show logan at left
-
-    bella "Hey guys! Oh my gosh, I can’t WAIT to see your rooms later!"
-
-    logan "If it’s anything like her usual setups, I won’t be shocked."
-
-    hide logan
-    show taylor at left:
-        zoom 0.65 
-    taylor "What do you mean by that?"
-
-    hide bella
-    show alex at right
-    alex "Miss Cara has this… sixth sense when it comes to the people who stay here."
-
-    alex "It’s kinda creepy, but you get used to it."
-
-    hide taylor
-    show hayden at left:
+    hide Taylor
+    show Bella:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Hayden:
+        xalign 0.8
+        yalign 0.68
         zoom 0.75
-    hayden "Creepy?"
 
-    hide alex
-    show logan at right
-    logan "Yeah. The hag can be extremely creepy."
+    Bella "Hey guys! Oh em gee I can’t WAIT to see your rooms later!"
 
-    logan "I’ve seen worse though."
-
-    hide hayden
-    show taylor at left:
+    hide Hayden
+    show Logan:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
-    taylor "Must relate to where you’re from."
 
-    logan "Ironhill District."
+    Logan "If it’s anything like her usual room setups, I won’t be shocked."
 
-    logan "They enjoy severe violence over there. Gunfights at least once a week."
+    hide Bella
+    show Taylor:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Logan:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
 
-    hide logan 
-    show hayden at right:
+    Taylor "What do you mean by that?"
+
+    hide Logan
+    show Alex:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
+
+    Alex "Miss Cara has this sixth sense when it comes to the people that stay here. It’s kinda creepy, but you get used to it."
+
+    hide Taylor
+    show Hayden:
+        xalign 0.2
+        yalign 0.68
         zoom 0.75
-    hayden "What about you, Alex?"
+    show Alex:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
 
-    hide taylor
-    show alex at left
-    alex "I don’t really remember."
+    Hayden "Creepy?"
 
-    alex "My parents dropped me off here when I was a baby."
+    hide Alex
+    show Logan:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
 
-    # Miss Cara Enters
+    Logan "Yeah, the hag can be extremely creepy. I’ve seen worse though."
 
-    show cara at center with moveinright
+    hide Hayden
+    show Taylor:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Logan:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
 
-    cara "It’s true. Alex is like the child I never knew I needed."
+    Taylor "Must relate to where you’re from."
 
-    alex "Thank you, Miss Cara. And thank you for the food!"
+    Logan "Ironhill District. They enjoy severe violence over there. Gunfights at least once a week."
 
-    hayden "Woah! This looks amazing!"
-
-    hide cara
-    hide hayden
-    show bella at right
-    bella "I LOVE spaghetti days! Thank you, Miss Cara!"
-
-    hide alex
-    show logan at left
-    logan "Thanks."
-
-    hide bella
-    show hayden at right:
+    hide Taylor
+    show Hayden:
+        xalign 0.2
+        yalign 0.68
         zoom 0.75
-    hayden "Thank you!"
-
-    hide logan
-    show taylor at left:
+    show Logan:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
-    taylor "…Thanks."
 
-    hide hayden
-    show cara at right
-    cara "You kids enjoy now, okay?"
+    Hayden "What about you Alex?"
 
-    hide cara with moveoutright
+    hide Logan
+    show Alex:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
 
-    # taylor thoughts
+    Alex "I don’t really remember. My parents dropped me off here when I was a baby."
 
-    taylor_thought "As we began eating… something felt off."
+    hide Hayden
+    hide Alex
+    show Cara:
+        xalign 0.5
+        yalign 0.68
+        zoom 0.65
 
-    taylor_thought "How convenient was it that we found a place to stay… just like the others?"
+    Cara "It’s true. Alex is like the child I never knew I needed."
 
-    taylor_thought "I don’t trust any of this."
-
-    taylor_thought "Even the food feels… strange."
-
-    # a low conversation begins. Hopefully what I did here works
-
-    taylor "Guys… does anything feel… weird about this—"
-
-    show bella at right
-    bella "{size=-5} SHUT UP! She hears everything but our whispers.{/size}"
-
-    hide taylor
-    show logan at left
-    logan "{size=-5} She’s creepy for real. We eat the food. Call it a day.{/size}"
-
-    logan "{size=-5} That’s why we’ve been trying to escape.{/size}"
-
-    hide bella
-    show hayden at right:
+    hide Cara
+    show Alex:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Hayden:
+        xalign 0.8
+        yalign 0.68
         zoom 0.75
-    hayden "{size=-5} Escape? What’s so bad about being here?{/size}"
 
-    logan "{size=-5} Just trust us.{/size}"
+    Alex "Thank you Miss Cara. And thank you for the food!"
 
-    hide hayden
-    show bella at right
-    bella "{size=-5} We want to escape tonight. Well… try again.{/size}"
+    Hayden "Woah! This looks yummy!"
 
-    hide logan
-    show alex at left
-    alex "{size=-5} Now that you’re here… you can help us get to the castle.{/size}"
-
-    hide bella
-    show taylor at right:
+    hide Hayden
+    show Bella:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
-    taylor "{size=-5} To get into the castle… you’d need to know the way in.{/size}"
 
-    alex "{size=-5} It’s not that hard.{/size}"
+    Bella "I love love LOVE spaghetti days! Thank you Miss Cara!"
 
-    hide alex
-    show bella at left
-    bella "{size=-5} Yeah! Alex has snuck in before!{/size}"
+    hide Alex
+    show Logan:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Bella:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
 
-    bella "{size=-5} They’re super cool!{/size}"
+    Logan "Thanks."
 
-    hide taylor
-    show hayden at right:
+    hide Logan
+    show Hayden:
+        xalign 0.2
+        yalign 0.68
         zoom 0.75
-    hayden "{size=-5} But… what’s in this food then…?{/size}"
-
-    bella "{size=-5} It’s just spaghetti. It’s fine.{/size}"
-
-    # tension starts to creep up 
-
-    show taylor at center:
+    show Bella:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
 
-    taylor_thought "We kept eating…"
+    Hayden "Thank you!"
 
-    taylor_thought "But now I couldn’t stop thinking about those locked rooms."
-
-    taylor_thought "If they’ve been trying to escape…"
-
-    taylor_thought "Were there others before them?"
-
-    #suspense in the final lines
-
-    hide bella
-    show taylor at left:
+    hide Bella
+    show Taylor:
+        xalign 0.8
+        yalign 0.68
         zoom 0.65
-    taylor "{size=-5} What about the locked rooms?{/size}"
 
-    pause 1.0
+    Taylor "…Thanks."
 
-    hayden "{size=-5} Why did you all get quiet…?{/size}"
+    hide Hayden
+    hide Taylor
+    show Cara:
+        xalign 0.5
+        yalign 0.68
+        zoom 0.65
 
-    #end of scene 6 
+    Cara "You kids enjoy now, ok?"
 
-    stop music fadeout 2.0
-    scene black with fade
+    hide Cara
+    show Taylor:
+        xalign 0.5
+        yalign 0.68
+        zoom 0.65
+
+    Taylor "As we all began eating, something felt off about all of this. How convenient was it that we were able to find a place to stay just like the other three? I don’t trust any of this."
+
+    Taylor "As I began to eat, I felt something weird about the meal."
+
+    Taylor "Guys…does anything feel…weird about this to-"
+
+    hide Taylor
+    show Bella:
+        xalign 0.5
+        yalign 0.68
+        zoom 0.65
+
+    Bella "(quiet) SHUT UP! She hears everything but our whispers."
+
+    hide Bella
+    show Logan:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Taylor:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
+
+    Logan "(whispered) She’s creepy for real. We eat the food. Call it a day. That’s why we’ve been trying to escape."
+
+    hide Taylor
+    show Hayden:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.75
+
+    Hayden "(whispered) What’s so bad about being here?"
+
+    Logan "(whispered) Just trust us."
+
+    hide Logan
+    show Bella:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Hayden:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.75
+
+    Bella "(whispered) We want to escape tonight. Well, try again at least."
+
+    hide Hayden
+    show Alex:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
+
+    Alex "(whispered) We have you guys now…you can help us get to the castle."
+
+    hide Bella
+    show Taylor:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Alex:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
+
+    Taylor "(whispered) But to get into the castle…you’d need to know the ways in."
+
+    Alex "(whispered) It’s not that hard."
+
+    hide Taylor
+    show Bella:
+        xalign 0.2
+        yalign 0.68
+        zoom 0.65
+    show Alex:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.65
+
+    Bella "(whispered) Yeah! Alex said they’ve snuck in there before! They’re super cool!"
+
+    hide Alex
+    show Hayden:
+        xalign 0.8
+        yalign 0.68
+        zoom 0.75
+
+    Hayden "(whispered) But what’s in this food then…"
+
+    Bella "(whispered) It’s just regular spaghetti, it’s fine."
+
+    hide Bella
+    hide Hayden
+    show Taylor:
+        xalign 0.5
+        yalign 0.68
+        zoom 0.65
+
+    Taylor "We all continued eating. But now I pondered about those locked rooms…if these three have been trying to escape…were there others that tried?"
+
+    Taylor "(whispered) What about the locked rooms?"
+
+    "…"
+
+    hide Taylor
+    show Hayden:
+        xalign 0.5
+        yalign 0.68
+        zoom 0.75
+
+    Hayden "(whispered) Why did you three get quiet?"
 
     return
