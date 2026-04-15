@@ -64,6 +64,9 @@ label scene3:
 
     Taylor "Ok that's everything. NOW LET'S GET OUT OF HERE!"
 
+    call puzzle
+
+
     show Hayden:
         xalign 0.2
         yalign 0.68

@@ -46,11 +46,9 @@ label scene15:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Logan "Well shit. I can finally get out of here. Maybe find my parents."
 
@@ -80,11 +78,9 @@ label scene15:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Bella "Hey! You aren’t leaving without me! I mean, we still have more adventures!"
 
@@ -95,11 +91,9 @@ label scene15:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Logan "HAH! After all this shit, we aren’t letting you leave. You’re sticking with us."
 
@@ -108,11 +102,9 @@ label scene15:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Bella "After allll you did…alllll the trickery…you’re on a SHORT LEASH!"
 
@@ -123,7 +115,6 @@ label scene15:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Logan "…YOU BROKE US INTO THE CASTLE KNOWING WHAT WOULD HAPPEN! At least Taylor just knew it wouldn’t be super guarded!"
 
@@ -134,14 +125,12 @@ label scene15:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
 
     Bella "YEAH! Wherever we go next, you go too! You can’t be trusted alone!"
 
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Alex "…Ugh fine."
 
@@ -152,9 +141,9 @@ label scene15:
     show Julie:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
-
+    play sound "Julie_Line_12.mp3"
     Julie "TAY TAYYYY! WHAT HAPPENED?! WHAT DID YOU DO GIRL?!"
+    stop sound
 
     hide Julie
     show Taylor:
@@ -170,13 +159,13 @@ label scene15:
     show Kyle:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Hayden:
         xalign 0.8
         yalign 0.68
         zoom 0.75
-
+    play sound "Kyle_Line_6.mp3"
     Kyle "Yoooo dude, that’s so sick! And the little man’s here!"
+    stop sound
 
     Hayden "ACK! KYLE! STOPPP!"
 
@@ -187,7 +176,6 @@ label scene15:
     show Cara:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Cara "BELLA! LOGAN! ALEX! You three are alright! I got worried. I wasn’t prepared to hear about THIS!"
 
@@ -195,7 +183,6 @@ label scene15:
     show Bella:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Bella "Miss Cara…I…is it true you killed those kids on purpose?"
 
@@ -203,7 +190,6 @@ label scene15:
     show Cara:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Cara "…I let Alex do what they needed. I just housed them…the money…"
 
@@ -211,7 +197,6 @@ label scene15:
     show Bella:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Bella "It was wrong…Miss Cara. I…I don’t know…if we can trust you right now…"
 
@@ -219,7 +204,6 @@ label scene15:
     show Cara:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Cara "(tearing up) I understand…and I’m sorry…"
 
@@ -227,7 +211,6 @@ label scene15:
     show Bella:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Bella "…I don’t think I can forgive you right now…but…maybe one day I will…"
 
@@ -241,7 +224,6 @@ label scene15:
     show Logan:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Logan "Yo, Pierce!"
 

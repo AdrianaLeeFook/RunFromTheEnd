@@ -142,12 +142,9 @@ label ruler_defeat:
     taylor "…Yeah. I did."
 
     # SELF DESTRUCT
-
-    "Castle PA" "ALERT! Intruders detected."
-
-    "Castle PA" "The King has been found dead."
-
-    "Castle PA" "Self destruct sequence initiated."
+    play sound "pasystem.mp3"
+    "Castle PA" "ALERT! Intruders have breached the castle. The King has been found dead. Self destruct sequence will now begin."
+    stop sound
 
     hide taylor
     show bella at left
@@ -202,14 +199,20 @@ label ruler_defeat:
     scene city_crowd with fade
     hide pierce
     "Civilian" "{size=-5} What happened to the castle?{/size}"
-    "Civilian" "{size=-5} Did they actually survive that?{/size}"
+    play sound "Civilian2_BunBun.mp3"
+    "Civilian" "{size=-5} Did those people sneak into the castle and come out alive? That’s unbelievable!{/size}"
+    stop sound
 
     hide taylor
     show julie at right
-    julie "{size=-5}(whispering) Kyle—look! It’s Tay!{/size}"
+    play sound "Julie_Line_11.mp3"
+    julie "{size=-5}(whispering) Kyle look! It’s Tay!{/size}"
+    stop sound
 
     show kyle at left
-    kyle "{size=-5}(whispering) What the hell…{/size}"
+    play sound "Kyle_Line_5.mp3"
+    kyle "{size=-5}(whispering) What the shit…{/size}"
+    stop sound
 
     hide julie
     hide kyle
