@@ -19,11 +19,15 @@ label scene2:
 
     #Taylor inside thoughts as he's leaving and walking to the protest
 
+    play sound "Taylor_RFTE_LINE13.mp3"
     taylor_thought "I walked out of the house and pulled my mask up. While the town looks like a desolate wasteland, it’s best not to be recognized by these cretins at the protest."
     pause 0.5
+    stop sound
 
+    play sound "Taylor_RFTE_LINE14.mp3"
     taylor_thought "Even if it feels repetitive... I have to keep going."
     pause 1.0
+    stop sound
 
     #add some sound to show that the protest is getting louder and taylor is getting closer
 
@@ -37,27 +41,37 @@ label scene2:
     julie "No more dictators! Give us our freedom! No more dictators! Give us our freedom!"
     stop sound
 
+    play sound "Taylor_RFTE_LINE15.mp3"
     taylor "Hey, Jules."
+    stop sound
 
     play sound "Julie_Line_2.mp3"
     julie "EEE! Tay, you MADE IT! You’re late!"
     stop sound
 
+    play sound "Taylor_RFTE_LINE16.mp3"
     taylor "You know I take any opportunity to…fight back against the new government, They’re cruel and must be put to rest."
+    stop sound
 
+    play sound "Taylor_RFTE_LINE17.mp3"
     taylor "We need a new resolve that doesn’t involve…any of those bastards."
+    stop sound
 
     play sound "Julie_Line_3.mp3"
     julie "And here I thought you’d stay back for once. You go to EVERYTHING! I thought you’d take a break!"
     stop sound
 
+    play sound "Taylor_RFTE_LINE18.mp3"
     taylor "There’s no time for breaks."
+    stop sound
 
     play sound "Julie_Line_4.mp3"
     julie "Girl you NEED to take some rest! It’ll be good for youuuuu."
     stop sound
 
+    play sound "Taylor_RFTE_LINE19.mp3"
     taylor "Yeah yeah, I know. Hayden keeps saying that. But I can’t rest. Not until those assholes are dead."
+    stop sound
 
     #Kyle comes into the conversation
 
@@ -88,7 +102,9 @@ label scene2:
     show kyle at center
     show julie at right
 
+    play sound "Taylor_RFTE_LINE20.mp3"
     taylor "Oh please, you come to protests for the free food, Kyle."
+    stop sound
 
     # Kyle again → focus Kyle
     show kyle at center
@@ -105,7 +121,9 @@ label scene2:
     show kyle at left
     show julie at right
 
+    play sound "Taylor_RFTE_LINE21.mp3"
     taylor "So human freedom and donuts are on your agenda as usual...got it..."
+    stop sound
 
     # JULIE joins back in
    
@@ -125,7 +143,9 @@ label scene2:
     show julie at right
     show kyle at left
 
+    play sound "Taylor_RFTE_LINE22.mp3"
     taylor "Whatever. As long as we're fighting for what we want, I don't see a problem."
+    stop sound
 
     # KYLE EXITS
 
