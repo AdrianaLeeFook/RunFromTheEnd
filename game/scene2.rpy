@@ -174,13 +174,17 @@ label scene2:
     julie "So...how are ya holding up, Tay?"
     stop sound
 
+    play sound "Taylor_RFTE_LINE23.mp3"
     taylor "Oh, you mean after I lost my parents a few weeks ago? Still awful. Hayden and I have had to hide more just because of it."
+    stop sound
 
     play sound "Julie_Line_7.mp3"
     julie "That's awful..."
     stop sound
 
+    play sound "Taylor_RFTE_LINE24.mp3"
     taylor "I miss them like hell but…it’s made me stronger. I want to make a change even more than before."
+    stop sound
 
     show taylor:
         xalign 0.2
@@ -193,7 +197,9 @@ label scene2:
     julie "That’s the spirit! But seriously, please take a break. You’re an easy target. Even with your mask."
     stop sound
 
+    play sound "Taylor_RFTE_LINE25.mp3"
     taylor "I switch it up a lot, I’m not scared."
+    stop sound
 
     play sound "guard1_timkvo.mp3"
     "Guard 1" "OK! EVERYONE MOVE IT! IF YOU DON'T LEAVE NOW, YOU WILL BE EXECUTED!"
@@ -214,13 +220,17 @@ label scene2:
         yalign 0.68
         zoom 0.65
 
+    play sound "Taylor_RFTE_LINE26.mp3"
     taylor "Psh."
+    stop sound
 
     play sound "Julie_Line_10.mp3"
     julie "Well, I’ll see ya around, Tay. Don’t get yourself killed out there."
     stop sound
 
+    play sound "Taylor_RFTE_LINE27.mp3"
     taylor "Yeah, I know."
+    stop sound
 
     hide julie
     show kyle:
@@ -234,7 +244,9 @@ label scene2:
     kyle "BYE TAY-TAY! Here, take some donuts for the little man."
     stop sound
 
+    play sound "Taylor_RFTE_LINE28.mp3"
     taylor "Thanks."
+    stop sound
     # Kyle exits again
     hide kyle with moveoutright
 
@@ -243,10 +255,16 @@ label scene2:
         yalign 0.68
         zoom 0.65
 
+    play sound "Taylor_RFTE_LINE29.mp3"
     taylor "Some folks decided to stay, but when your parents were the ones leading the protests at their peak, you have to hide. That’s my life."
+    stop sound
 
+    play sound "Taylor_RFTE_LINE30.mp3"
     taylor "Our town used to be so vibrant and beautiful now it’s desolate. A total wasteland. You get caught breaking a single rule, it’s either labor work or death."
+    stop sound
 
+    play sound "Taylor_RFTE_LINE31.mp3"
     taylor "Jailtime is considered mercy. Fines are basically non-existent outside of specified cases. Usually for the rich people, not for others…"
+    stop sound
 
     return

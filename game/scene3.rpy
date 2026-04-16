@@ -62,8 +62,6 @@ label scene3:
 
     Taylor "They have no mercy. Gotta pack my things and get out of here before they find us again."
 
-    Taylor "Ok that's everything. NOW LET'S GET OUT OF HERE!"
-
     call puzzle
 
 
