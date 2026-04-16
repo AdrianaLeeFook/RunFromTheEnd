@@ -98,7 +98,8 @@ label puzzle:
 
     "You found everything!"
  
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
   
     Taylor "Taylor: Ok that's everything. NOW LETS GET OUT OF HERE! "
 
