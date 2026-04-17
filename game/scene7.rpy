@@ -149,19 +149,15 @@ label scene7:
         yalign 0.68
         zoom 0.65
 
-    play sound "Taylor_RFTE_LINE106.mp3"
+    play sound "Taylor_RFTE_LINE106_Part1.mp3"
     Taylor "I carefully grabbed my things. I've learned not to make a lot of noise, but to get out of here, I felt I needed to be even quieter than usual."
-    Taylor "As I opened the door, the four were there waiting."
+    stop sound 
+
+    play sound "Taylor_RFTE_LINE106_Part2.mp3"
+    Taylor "As I opened the door, the four were there waiting. Before we went outside though, I went to work on the security system."
     stop sound 
 
     hide Taylor
-    show Alex:
-        xalign 0.5
-        yalign 0.68
-    
-    play sound "Alex_Line_18.mp3"
-    Alex "Before we went outside though, I went to work on the security system."
-    stop sound 
 
     call scene7_puzzle2_security
 
