@@ -31,8 +31,7 @@ label scene6:
     hide Taylor
     show Bella:
         xalign 0.2
-        yalign 0.68
-        zoom 0.65
+        yalign 0.68 
     show Hayden:
         xalign 0.8
         yalign 0.68
@@ -44,7 +43,6 @@ label scene6:
     show Logan:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Logan "If it’s anything like her usual room setups, I won’t be shocked."
 
@@ -56,7 +54,6 @@ label scene6:
     show Logan:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Taylor "What do you mean by that?"
 
@@ -64,7 +61,6 @@ label scene6:
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Alex "Miss Cara has this sixth sense when it comes to the people that stay here. It’s kinda creepy, but you get used to it."
 
@@ -96,7 +92,6 @@ label scene6:
     show Logan:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Taylor "Must relate to where you’re from."
 
@@ -110,7 +105,6 @@ label scene6:
     show Logan:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Hayden "What about you Alex?"
 
@@ -118,7 +112,6 @@ label scene6:
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Alex "I don’t really remember. My parents dropped me off here when I was a baby."
 
@@ -127,7 +120,6 @@ label scene6:
     show Cara:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Cara "It’s true. Alex is like the child I never knew I needed."
 
@@ -135,7 +127,6 @@ label scene6:
     show Alex:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Hayden:
         xalign 0.8
         yalign 0.68
@@ -149,7 +140,6 @@ label scene6:
     show Bella:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Bella "I love love LOVE spaghetti days! Thank you Miss Cara!"
 
@@ -157,11 +147,9 @@ label scene6:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Bella:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Logan "Thanks."
 
@@ -173,7 +161,6 @@ label scene6:
     show Bella:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Hayden "Thank you!"
 
@@ -190,7 +177,6 @@ label scene6:
     show Cara:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Cara "You kids enjoy now, ok?"
 
@@ -210,7 +196,6 @@ label scene6:
     show Bella:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Bella "(quiet) SHUT UP! She hears everything but our whispers."
 
@@ -218,7 +203,6 @@ label scene6:
     show Logan:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Taylor:
         xalign 0.8
         yalign 0.68
@@ -240,7 +224,6 @@ label scene6:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Hayden:
         xalign 0.8
         yalign 0.68
@@ -252,7 +235,6 @@ label scene6:
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Alex "(whispered) We have you guys now…you can help us get to the castle."
 
@@ -264,7 +246,6 @@ label scene6:
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Taylor "(whispered) But to get into the castle…you’d need to know the ways in."
 
@@ -274,11 +255,9 @@ label scene6:
     show Bella:
         xalign 0.2
         yalign 0.68
-        zoom 0.65
     show Alex:
         xalign 0.8
         yalign 0.68
-        zoom 0.65
 
     Bella "(whispered) Yeah! Alex said they’ve snuck in there before! They’re super cool!"
 
