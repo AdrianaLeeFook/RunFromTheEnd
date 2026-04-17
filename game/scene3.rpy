@@ -17,11 +17,17 @@ label scene3:
         yalign 0.68
         zoom 0.65
 
+    play sound "Taylor_RFTE_LINE32.mp3"
     Taylor "I head back home to check on Hayden. The kid's smart, but there's times I feel he doesn't understand the complexities of situations."
+    stop sound
 
+    play sound "Taylor_RFTE_LINE33.mp3"
     Taylor "I don't want him attending protests. It's risky enough that I attend them. I can't have him risking his life too."
+    stop sound
 
+    play sound "Taylor_RFTE_LINE34.mp3"
     Taylor "I'm home."
+    stop sound
 
     show Hayden:
         xalign 0.2
@@ -33,13 +39,21 @@ label scene3:
         yalign 0.68
         zoom 0.65
 
+    play sound "Hayden10.mp3"
     Hayden "(panicked) Sis, we gotta go."
+    stop sound
 
+    play sound "Taylor_RFTE_LINE35.mp3"
     Taylor "The hell you talkin about?"
+    stop sound
 
+    play sound "Hayden11.mp3"
     Hayden "There were some guys knocking on the door earlier…asking for you."
+    stop sound
 
+    play sound "Taylor_RFTE_LINE36.mp3"
     Taylor "...Shit. Ok, we need to leave. Pack your bags and leave your phone."
+    stop sound
 
     Hayden "Wait, why?"
 
@@ -61,8 +75,6 @@ label scene3:
     Taylor "First the parents, then the kids. Executions really are no joke in this hell."
 
     Taylor "They have no mercy. Gotta pack my things and get out of here before they find us again."
-
-    Taylor "Ok that's everything. NOW LET'S GET OUT OF HERE!"
 
     call puzzle
 

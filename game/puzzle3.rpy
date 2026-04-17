@@ -8,6 +8,8 @@ default tooltip = ""
 
 define Taylor = Character("Taylor")
 
+label puzzle:
+
 screen hidden():
 
     add "hiddenobject.png"
@@ -87,7 +89,8 @@ screen hidden():
             action Return()
 
 
-label puzzle:
+
+label puzzle3_win:
 
     image Taylor = "taylor.jpg"
 
@@ -98,8 +101,21 @@ label puzzle:
 
     "You found everything!"
  
-    show Taylor at center
+    show Taylor at center:
+        zoom 0.65
   
     Taylor "Taylor: Ok that's everything. NOW LETS GET OUT OF HERE! "
 
     return
+
+    label puzzle3_fail:
+        show Taylor at center:
+            zoom 0.65
+
+    Taylor "No! Dangit, we’re not gonna get out of here on time."
+
+    Hayden "TAYLOR, HELPPP!"
+
+    "GAME END"
+
+    jump scene3

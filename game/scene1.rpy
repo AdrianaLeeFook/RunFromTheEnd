@@ -9,8 +9,8 @@ label scene1:
     scene bg room
 
     # Declare the character sprites to images.
-    image Taylor = "taylor.jpg"
-    image Hayden = "hayden.jpg"
+    image Taylor = "TaylorPlaceholder.png"
+    image Hayden = "HaydenPlaceholder.png"
 
     # The dialogue for this scene. And to show the character sprites.
     show Taylor at center:

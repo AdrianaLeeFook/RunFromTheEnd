@@ -145,13 +145,12 @@ label scene7_puzzle2_fail:
     show Cara:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Cara "Children? Where are you going?"
 
     "Game End"
 
-    return
+    jump scene7
 
 
 label scene7_puzzle2_success:
@@ -161,7 +160,6 @@ label scene7_puzzle2_success:
     show Alex:
         xalign 0.5
         yalign 0.68
-        zoom 0.65
 
     Alex "(whispered) Luckily for us…Miss Cara doesn’t bother looking at her security system half the time."
 
